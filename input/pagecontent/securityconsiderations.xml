@@ -1,0 +1,120 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
+
+<!-- Material initially from RFC 3552           Security Considerations Guidelines          July 2003 -->
+<H3>Security and Privacy Considerations</H3>
+<p>
+   While it is not a requirement that any given protocol or system be
+   immune to all forms of attack, it is still necessary for authors to
+   consider as many forms as possible.  Part of the purpose of the
+   Security Considerations section is to explain what attacks are out of
+   scope and what countermeasures can be applied to defend against them.
+   In
+</p><p>
+   There should be a clear description of the kinds of threats on the
+   described protocol or technology.  This should be approached as an
+   effort to perform "due diligence" in describing all known or
+   foreseeable risks and threats to potential implementers and users.
+</p><p>
+   Authors MUST describe
+</p><p>
+
+      1.   which attacks are out of scope (and why!)
+</p><p>
+      2.   which attacks are in-scope
+</p><p>
+      2.1  and the protocol is susceptible to
+</p><p>
+      2.2  and the protocol protects against
+</p><p>
+
+   At least the following forms of attack MUST be considered:
+   eavesdropping, replay, message insertion, deletion, modification, and
+   man-in-the-middle.  Potential denial of service attacks MUST be
+   identified as well.  If the protocol incorporates cryptographic
+   protection mechanisms, it should be clearly indicated which portions
+   of the data are protected and what the protections are (i.e.,
+   integrity only, confidentiality, and/or endpoint authentication,
+   etc.).  Some indication should also be given to what sorts of attacks
+   the cryptographic protection is susceptible.  Data which should be
+   held secret (keying material, random seeds, etc.) should be clearly
+   labeled.
+</p><p>
+
+   If the technology involves authentication, particularly user-host
+   authentication, the security of the authentication method MUST be
+   clearly specified.  That is, authors MUST document the assumptions
+   that the security of this authentication method is predicated upon.
+   For instance, in the case of the UNIX username/password login method,
+   a statement to the effect of:
+</p><p>
+
+      Authentication in the system is secure only to the extent that it
+      is difficult to guess or obtain a ASCII password that is a maximum
+      of 8 characters long.  These passwords can be obtained by sniffing
+      telnet sessions or by running the 'crack' program using the
+      contents of the /etc/passwd file.  Attempts to protect against
+      on-line password guessing by (1) disconnecting after several
+      unsuccessful login attempts and (2) waiting between successive
+      password prompts is effective only to the extent that attackers
+      are impatient.
+</p><p>
+
+      Because the /etc/passwd file maps usernames to user ids, groups,
+      etc. it must be world readable.  In order to permit this usage but
+      make running crack more difficult, the file is often split into
+      /etc/passwd and a 'shadow' password file.  The shadow file is not
+      world readable and contains the encrypted password.  The regular
+      /etc/passwd file contains a dummy password in its place.
+</p><p>
+
+   It is insufficient to simply state that one's protocol should be run
+   over some lower layer security protocol.  If a system relies upon
+   lower layer security services for security, the protections those
+   services are expected to provide MUST be clearly specified.  In
+   addition, the resultant properties of the combined system need to be
+   specified.
+</p><p>
+
+   Note: In general, the IESG will not approve standards track protocols
+   which do not provide for strong authentication, either internal to
+   the protocol or through tight binding to a lower layer security
+   protocol.
+</p><p>
+
+   The threat environment addressed by the Security Considerations
+   section MUST at a minimum include deployment across the global
+   Internet across multiple administrative boundaries without assuming
+   that firewalls are in place, even if only to provide justification
+   for why such consideration is out of scope for the protocol.  It is
+   not acceptable to only discuss threats applicable to LANs and ignore
+   the broader threat environment.  All IETF standards-track protocols
+   are considered likely to have deployment in the global Internet.  In
+   some cases, there might be an Applicability Statement discouraging
+   use of a technology or protocol in a particular environment.
+   Nonetheless, the security issues of broader deployment should be
+   discussed in the document.
+</p><p>
+
+   There should be a clear description of the residual risk to the user
+   or operator of that protocol after threat mitigation has been
+   deployed.  Such risks might arise from compromise in a related
+   protocol (e.g., IPsec is useless if key management has been
+   compromised), from incorrect implementation, compromise of the
+   security technology used for risk reduction (e.g., a cipher with a
+   40-bit key), or there might be risks that are not addressed by the
+   protocol specification (e.g., denial of service attacks on an
+   underlying link protocol).  Particular care should be taken in
+   situations where the compromise of a single system would compromise
+   an entire protocol.  For instance, in general protocol designers
+   assume that end-systems are inviolate and don't worry about physical
+   attack.  However, in cases (such as a certificate authority) where
+   compromise of a single system could lead to widespread compromises,
+   it is appropriate to consider systems and physical security as well.
+</p><p>
+
+   There should also be some discussion of potential security risks
+   arising from potential misapplications of the protocol or technology
+   described in the RFC.  This might be coupled with an Applicability
+   Statement for that RFC.
+  </p>
+</div>

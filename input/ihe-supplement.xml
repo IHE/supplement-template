@@ -55,6 +55,11 @@
         <nameUrl value="background.html"/>
         <title value="Background"/>
         <generation value="html"/>
+		<page>
+		    <nameUrl value="securityconsiderations.html"/>
+			<title value="Security and Privacy Considerations"/>
+			<generation value="html"/>
+		</page>
       </page>
       <page>
         <nameUrl value="spec.html"/>
