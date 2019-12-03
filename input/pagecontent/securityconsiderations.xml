@@ -1,7 +1,7 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
 
 <!-- Material initially from RFC 3552           Security Considerations Guidelines          July 2003 -->
-<H3>Security and Privacy Considerations</H3>
+<!-- <H3>Security and Privacy Considerations</H3> -->
 <p>
    While it is not a requirement that any given protocol or system be
    immune to all forms of attack, it is still necessary for authors to
