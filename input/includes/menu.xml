@@ -8,17 +8,27 @@
     <ul class="dropdown-menu">
       <li>
         <a href="background.html">Background</a>
+		<ul class="dropdown-menu">
+		<li>Actor - A</li>
+		<li>Actor - B</li>
+		<li>Transaction - T1</li>
+		<li>Transaction - T2</li>
+		<li>Option O1</li>
+		<li>Option O2</li>
+		<li><a href="securityconsiderations.html">Security and Privacy Considerations</a></li>
+		<li>Cross Profile Considerations</li>
+		</ul>
       </li>
     </ul>
   </li>
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Specification<b class="caret">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Use-Case<b class="caret">
       </b>
     </a>
     <ul class="dropdown-menu">
-      <li>
-        <a href="spec.html">Detailed Specification</a>
-      </li>
+      <li><a href="spec.html">Detailed Specification</a></li>
+	  <li>Use-case 1</li>
+	  <li>Use-case 2</li>
     </ul>
   </li>
   <li><a href="artifacts.html">Artifact Index</a></li>
