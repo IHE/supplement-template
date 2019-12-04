@@ -6,9 +6,7 @@
       </b>
     </a>
     <ul class="dropdown-menu">
-      <li>
-        <a href="background.html">Background</a>
-		<ul class="dropdown-menu">
+      <li><a href="background.html">Background</a></li>
 		<li>Actor - A</li>
 		<li>Actor - B</li>
 		<li>Transaction - T1</li>
@@ -17,8 +15,6 @@
 		<li>Option O2</li>
 		<li><a href="securityconsiderations.html">Security and Privacy Considerations</a></li>
 		<li>Cross Profile Considerations</li>
-		</ul>
-      </li>
     </ul>
   </li>
   <li class="dropdown">
