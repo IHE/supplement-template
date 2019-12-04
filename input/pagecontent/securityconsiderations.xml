@@ -8,6 +8,11 @@ General <a href="{{site.data.fhir.path}}secpriv-module.html">Security and Privac
 The FHIR core specificaiton should be leveraged where possible to inform the reader of your specification.
 </p>
 <p>
+IHE FHIR based profiles should reference the <a href="http://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_Appx-Z.pdf">ITI Appendix Z.8 Mobile Security and Privacy Considerations</a> base when appropriate.
+</p>
+<p>
+IHE Document Content profiles can reference the security and privacy provided by the Document Sharing infrastructure grouped.</p>
+<p>
    While it is not a requirement that any given specification or system be
    immune to all forms of attack, it is still necessary for authors of specifications to
    consider as many forms as possible.  Part of the purpose of the
