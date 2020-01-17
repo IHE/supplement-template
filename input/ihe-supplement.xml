@@ -65,6 +65,21 @@
         <nameUrl value="spec.html"/>
         <title value="Detailed Specification"/>
         <generation value="markdown"/>
+		<page>
+		    <nameUrl value="Volume1.html"/>
+			<title value="Volume 1"/>
+			<generation value="html"/>
+		</page>
+		<page>
+		    <nameUrl value="Volume2.html"/>
+			<title value="Volume 2"/>
+			<generation value="html"/>
+		</page>
+		<page>
+		    <nameUrl value="Volume3.html"/>
+			<title value="Volume 3"/>
+			<generation value="html"/>
+		</page>
       </page>
       <page>
         <nameUrl value="downloads.html"/>
