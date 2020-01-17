@@ -17,5 +17,11 @@ DO NOT BUILD until you have changed the identity of your IG from "IHE.myProfile"
 # This IG
 This IG is self documenting, and is available on the continuous build site as http://build.fhir.org/ig/IHE/supplement-template/branches/master/index.html
 
+# HL7 guidance to IG authors
+HL7 also has guidance and a sample-ig that may be useful for readers.
+* autohr guidance - http://build.fhir.org/ig/FHIR/ig-guidance/branches/master/index.html
+  * source for this guidance at https://github.com/FHIR/ig-guidance
+* sample-ig - https://github.com/FHIR/sample-ig
+
 
 

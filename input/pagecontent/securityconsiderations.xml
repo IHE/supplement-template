@@ -2,6 +2,7 @@
 
 <!-- Material initially from RFC 3552           Security Considerations Guidelines          July 2003 -->
 <b>The following is instructions to the editor and not to be included in an publication</b> 
+<p>This section should address downstream design considerations, specifically for: Privacy, Security, and Safety. These might need to be individual header sections if they are significant or need to be referenced.</p>
 <p>
 The editor needs to be famular with Security and Privacy fundimentals. 
 General <a href="{{site.data.fhir.path}}secpriv-module.html">Security and Privacy guidance</a> is provided in the <a href="{{site.data.fhir.path}}index.html">FHIR Specification <img src="external.png" style="text-align: baseline"/></a>. 
@@ -87,4 +88,8 @@ IHE Document Content profiles can reference the security and privacy provided by
    arising from potential misapplications of the specification or technology
    described in the specification.  
   </p>
+  
+  <!-- specific parts for IHE -->
+  <p>This section also include specific considerations regarding Digital Signatures, Provenance, Audit Logging, and De-Identification. </p>
+  <p> Where audit logging is specified, a StructureDefinition profie(s) should be included, and Examples of those logs might be included.</p>
 </div>

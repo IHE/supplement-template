@@ -1,0 +1,124 @@
+<p>Volume 2 – Transactions</p>
+<p>Add Section 3.Y</p>
+<h2 class="list-paragraph" id="y-transaction-name-domain-acronym-">3.Y &lt;Transaction Name [Domain Acronym-#]&gt;</h2>
+<p><em>&lt;The “Y” in the heading should be the same as the # in the [Domain Acronym -#] title&gt;</em></p>
+<h3 class="list-paragraph" id="y.1-scope">3.Y.1 Scope</h3>
+<p>This transaction is used to <em>&lt;…describe what is accomplished by using the transaction. Remember that by keeping transactions general/abstract, they can be re-used in a variety of profiles&gt;</em></p>
+<h3 class="list-paragraph" id="y.2-actor-roles">3.Y.2 Actor Roles</h3>
+<p>&lt;<em>Alternative 1</em>&gt; Table 3.Y.2-1: Actor Roles</p>
+<table>
+<thead>
+<tr class="header">
+<th><strong>Actor:</strong></th>
+<th>&lt;Official actor name; list every actor in this transaction.&gt;</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Role:</strong></td>
+<td>&lt;Very brief, one phrase, description of the role that this actor plays in this transaction.&gt;</td>
+</tr>
+<tr class="even">
+<td><strong>Actor:</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Role:</strong></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Actor:</strong></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td><strong>Role:</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><em>&lt;The assignment and use of role names in transaction specifications has proved to be very effective/efficient in Radiology, especially when existing transactions are re-used by additional actors. Following is an alternative example of the Role section. Delete whichever form of the role section you choose not to use.&gt;</em></p>
+<p>The roles in this transaction are defined in the following table and may be played by the actors shown here:</p>
+<p>&lt;<em>Alternative 2</em>&gt;Table 3.Y.2-1 Actor Roles</p>
+<table>
+<thead>
+<tr class="header">
+<th><em><strong>Role:</strong></em></th>
+<th><em>&lt;Role Name:&gt;&lt;Only unique within this transaction. Typically one word. The Role Name is analogous to SCU or SCP in DICOM Services.&gt;</em></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Actor(s):</strong></td>
+<td><p>The following actors may play the role of <em>&lt;Role Name&gt;</em>:</p>
+<p><em>&lt;Actor Name&gt;: &lt;optionally, the situation where the actor would play this role if needed for clarity.&gt;”</em></p></td>
+</tr>
+<tr class="even">
+<td><strong>Role:</strong></td>
+<td><p><em>&lt;e.g., Requestor:</em></p>
+<p><em>Submits the relevant details and requests the creation of a new workitem.&gt;</em></p></td>
+</tr>
+<tr class="odd">
+<td><strong>Actor(s):</strong></td>
+<td><p><em>&lt;e.g., The following actors may play the role of Requestor:</em></p>
+<p><em>Workitem Creator: when requesting workitems</em></p>
+<p><em>Workitem Performer: when performing unscheduled workitems&gt;</em></p></td>
+</tr>
+<tr class="even">
+<td><strong>Role:</strong></td>
+<td><p><em>&lt;e.g., Manager:</em></p>
+<p><em>Creates and manages a Unified Procedure Step instance for the requested workitem.&gt;</em></p></td>
+</tr>
+<tr class="odd">
+<td><strong>Actor(s):</strong></td>
+<td><p><em>&lt;e.g., The following actors may play the role of Manager:</em></p>
+<p><em>Workitem Manager: when receiving a new workitem for its worklist.&gt;</em></p></td>
+</tr>
+</tbody>
+</table>
+<p>Transaction text specifies behavior for each role. The behavior of specific actors may also be specified when it goes beyond that of the general role.</p>
+<h3 class="list-paragraph" id="y.3-referenced-standards">3.Y.3 Referenced Standards</h3>
+<ul>
+<li><p><em>&lt;e.g., HL7 2.3.1 Chapters 2, 3&gt;</em></p></li>
+<li><p><em>&lt;e.g., DICOM 2008 PS 3.3: A.35.8 X-Ray Radiation Dose SR IOD&gt;</em></p></li>
+<li><p><em>&lt;e.g., applicable sub-sections in ITI TF-2x: Appendix Z on HL7 FHIR&gt;</em></p></li>
+</ul>
+<h3 class="list-paragraph" id="y.4-messages">3.Y.4 Messages</h3>
+<p>&lt;The interaction diagram shows the detailed standards-based message exchange that makes up the IHE transaction.&gt;</p>
+<p>Figure 3.Y.4-1: Interaction Diagram</p>
+<h4 class="list-paragraph" id="y.4.1-message-1-name">3.Y.4.1 &lt;Message 1 Name&gt;</h4>
+<p>&lt;One or two sentence summary of what Message 1 accomplishes typically relating the message to the relevant standard. Avoid shall language in this upper level section. Do not duplicate the triggers, encoding, semantics, standards used, or expected actions. Those belong in the following sections.&gt;</p>
+<p>&lt;Explicitly state if the multiplicity of an actor may be greater than one; i.e., if an actor (whether it is a client or server) can expect this message from a single source or multiple sources.&gt;</p>
+<h5 class="list-paragraph" id="y.4.1.1-trigger-events">3.Y.4.1.1 Trigger Events</h5>
+<p>&lt;Description of the real world events that cause the sender (Actor A) to send Message 1 (e.g., an operator or an automated function determines that a new workitem is needed).&gt;</p>
+<h5 class="list-paragraph" id="y.4.1.2-message-semantics">3.Y.4.1.2 Message Semantics</h5>
+<p>&lt;Detailed description of the meaning, structure and contents of the message, including any IHE specific clarifications of the message format, attributes, etc.&gt;</p>
+<p>&lt;Start by describing the standard underlying the message and how the participating actors are mapped (e.g., “This message is a DICOM C-FIND Request. Actor A is the SCU. Actor D is the SCP.”).&gt;</p>
+<p>&lt;Continue profiling the message by providing guidance or constraints on how the message parameters are populated, how the payload is encoded, how the message is structured and what the contents mean. These message semantics should both help the sender to construct the message and the receiver to interpret the message.&gt;</p>
+<h5 class="list-paragraph" id="y.4.1.3-expected-actions">3.Y.4.1.3 Expected Actions</h5>
+<p>&lt;Description of the actions expected to be taken as a result of sending or receiving this message.&gt;</p>
+<p>&lt;Describe what the receiver is expected/required to do upon receiving this message. &gt;</p>
+<p>&lt;Avoid re-iterating the transaction sequencing specified in the Profile Process Flows as expected actions internal to the transaction. Doing so prevents this transaction being re-used in other contexts.&gt;</p>
+<p>&lt;Explicitly define any expected action based on the multiplicity of an actor(s), if applicable.&gt;</p>
+<h4 class="list-paragraph" id="y.4.2-message-2-name">3.Y.4.2 &lt;Message 2 Name&gt;</h4>
+<p>&lt;One or two sentence summary of what Message 2 accomplishes typically relating the message to the relevant standard. Avoid shall language in this upper level section. Do not duplicate the triggers, encoding, semantics, standards used, or expected actions. Those belong in the following sections.&gt;</p>
+<p>&lt;Explicitly state if the multiplicity of an actor may be greater than one; i.e., if an actor (whether it is a client or server) can expect this message from a single source or multiple sources.&gt;</p>
+<p>&lt;Repeat this section as necessary based on the number of messages in the interaction diagram.&gt;</p>
+<h5 class="list-paragraph" id="y.4.2.1-trigger-events">3.Y.4.2.1 Trigger Events</h5>
+<p>&lt;Description of the real world events that cause the sender (Actor A) to send Message 1(e.g., an operator or an automated function determines that a new workitem is needed).&gt;</p>
+<h5 class="list-paragraph" id="y.4.2.2-message-semantics">3.Y.4.2.2 Message Semantics</h5>
+<p>&lt;Detailed description of the meaning, structure and contents of the message, including any IHE specific clarifications of the message format, attributes, etc.&gt;</p>
+<p>&lt;Start by describing the standard underlying the message and how the participating actors are mapped (e.g., “This message is a DICOM C-FIND Request. Actor A is the SCU. Actor D is the SCP.”).&gt;</p>
+<p>&lt;Continue profiling the message by providing guidance or constraints on how the message parameters are populated, how the payload is encoded, how the message is structured and what the contents mean. These message semantics should both help the sender to construct the message and the receiver to interpret the message.&gt;</p>
+<h5 class="list-paragraph" id="y.4.2.3-expected-actions">3.Y.4.2.3 Expected Actions</h5>
+<p>&lt;Description of the actions expected to be taken as a result of sending or receiving this message.&gt;</p>
+<p>&lt;Describe what the receiver is expected/required to do upon receiving this message. &gt;</p>
+<p>&lt;Avoid re-iterating the transaction sequencing specified in the Profile Process Flows as expected actions internal to the transaction. Doing so prevents this transaction being re-used in other contexts.&gt;</p>
+<p>&lt;Explicitly define any expected action based on the multiplicity of an actor(s), if applicable.&gt;</p>
+<h3 class="list-paragraph" id="y.5-protocol-requirements">3.Y.5 Protocol Requirements</h3>
+<p>&lt;In this section, the selected protocol bindings of the transactions are explained in detail (like SOAP or HTTP bindings).For an example, see the QRPH DEX Profile or ITI TF-2b:3.34.5, 3.35.5. Indicate NA if not used.&gt;</p>
+<h3 class="list-paragraph" id="y.6-security-considerations">3.Y.6 Security Considerations</h3>
+<p>&lt;Description of the transaction specific security consideration; such as use of security profiles.&gt;</p>
+<h4 class="list-paragraph" id="y.6.1-security-audit-considerations">3.Y.6.1 Security Audit Considerations</h4>
+<p>&lt;This section should identify any specific ATNA security audit event that is associated with this transaction and requirements on the encoding of that audit event. &gt;</p>
+<h5 class="list-paragraph" id="y.6.z-actor-specific-security-considerations">3.Y.6.(z) &lt;Actor&gt; Specific Security Considerations</h5>
+<p>&lt;This section should specify any specific security considerations on an actor-by-actor basis.&gt;</p>
