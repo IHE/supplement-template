@@ -1,9 +1,10 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
 <p>Volume 1 – Profiles</p>
 <h2 class="list-paragraph" id="domain-specific-additions">&lt;<em>Domain-specific additions&gt;</em></h2>
 <p>&lt;Some domains have specific sections, added as subsections to Sections 1 or 2, in their Technical Frameworks. These types of additions are allowed as long as they do not adjust the overall numbering scheme which needs to remain consistent across domains. If there are such additions, they should be included here. If none, enter NA.&gt;</p>
 <p>Add new Section #</p>
 <p><em>&lt;Reserve a subsequent section number in the current domain Technical Framework Volume 1 (DOM TF-1). Replace the letter “X” with that section heading number. This number should not change when this supplement is added to the Final Text Technical Framework. In this manner, references should be able to be maintained going forward.&gt;</em></p>
-<h1 class="list-paragraph" id="x-profile-name-acronym-profile">X &lt;Profile Name (Acronym)&gt; Profile</h1>
+<h2 class="list-paragraph" id="x-profile-name-acronym-profile">X &lt;Profile Name (Acronym)&gt; Profile</h2>
 <p>&lt;Provide an end-user friendly overview of what the profile does for them. Keep it brief (a paragraph or two, up to a page). If extensive detail is needed, it should be included in Section X.4- Use Cases.&gt;</p>
 <p>&lt;Explicitly state whether this is a Workflow, Transport, or Content Module (or combination) profile. See the IHE Technical Frameworks General Introduction for definitions of these profile types. The IHE Technical Frameworks General Introduction is published at <a href="http://ihe.net/Technical_Frameworks/"><em>http://ihe.net/Technical_Frameworks</em></a>.</p>
 <h2 class="list-paragraph" id="x.1-profile-acronym-actors-transactions-and-content-modules">X.1 &lt;Profile Acronym&gt; Actors, Transactions, and Content Modules</h2>
@@ -21,7 +22,7 @@
 <tr class="odd">
 <td>Actors</td>
 <td>Transactions</td>
-<td>Initiator or Responder</td>
+<td>Initiator or Responder</td> 
 <td>Optionality</td>
 <td>Reference</td>
 </tr>
@@ -451,3 +452,4 @@
 <p><em>&lt;Consider using a format such as the following:&gt;</em></p>
 <p>&lt;other profile acronym&gt; - &lt;other profile name&gt;</p>
 <p>A &lt;other profile actor name&gt; in &lt;other profile name&gt; might be grouped with a &lt;this profile actor name&gt; to &lt;describe benefit/what is accomplished by grouping&gt;.</p>
+</div>

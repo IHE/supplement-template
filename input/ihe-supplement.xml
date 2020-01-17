@@ -62,9 +62,6 @@
 		</page>
       </page>
       <page>
-        <nameUrl value="spec.html"/>
-        <title value="Detailed Specification"/>
-        <generation value="markdown"/>
 		<page>
 		    <nameUrl value="Volume1.html"/>
 			<title value="Volume 1"/>

@@ -1,3 +1,4 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
 <p>Volume 2 – Transactions</p>
 <p>Add Section 3.Y</p>
 <h2 class="list-paragraph" id="y-transaction-name-domain-acronym-">3.Y &lt;Transaction Name [Domain Acronym-#]&gt;</h2>
@@ -122,3 +123,4 @@
 <p>&lt;This section should identify any specific ATNA security audit event that is associated with this transaction and requirements on the encoding of that audit event. &gt;</p>
 <h5 class="list-paragraph" id="y.6.z-actor-specific-security-considerations">3.Y.6.(z) &lt;Actor&gt; Specific Security Considerations</h5>
 <p>&lt;This section should specify any specific security considerations on an actor-by-actor basis.&gt;</p>
+</div>
