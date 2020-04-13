@@ -3,6 +3,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../input-cache/schemas-r5/fhir-single.xsd">
   <id value="ihe.uv.ihe-supplement"/>
   <url value="http://ihe.net/fhir/uv/ihe-supplement/ImplementationGuide/ihe.uv.ihe-supplement"/>
+  <version value="0.2.0"/>
   <name value="YourComputableMyIGNameHere"/>
   <title value="Your User Friendly Name for MyIG Here"/>
   <status value="draft"/>
@@ -89,5 +90,13 @@
         <generation value="html"/>
       </page>
     </page>
+    <parameter>
+      <code value="releaselabel"/>
+      <value value="CI Build"/>
+    </parameter>
+    <parameter>
+      <code value="copyrightyear"/>
+      <value value="2019+"/>
+    </parameter>	
   </definition>
 </ImplementationGuide>

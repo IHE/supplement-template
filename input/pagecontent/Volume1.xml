@@ -1,13 +1,13 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
 <p>Volume 1 – Profiles</p>
-<h2 class="list-paragraph" id="domain-specific-additions">&lt;<em>Domain-specific additions&gt;</em></h2>
+<h3 class="list-paragraph" id="domain-specific-additions">&lt;<em>Domain-specific additions&gt;</em></h3>
 <p>&lt;Some domains have specific sections, added as subsections to Sections 1 or 2, in their Technical Frameworks. These types of additions are allowed as long as they do not adjust the overall numbering scheme which needs to remain consistent across domains. If there are such additions, they should be included here. If none, enter NA.&gt;</p>
 <p>Add new Section #</p>
 <p><em>&lt;Reserve a subsequent section number in the current domain Technical Framework Volume 1 (DOM TF-1). Replace the letter “X” with that section heading number. This number should not change when this supplement is added to the Final Text Technical Framework. In this manner, references should be able to be maintained going forward.&gt;</em></p>
-<h2 class="list-paragraph" id="x-profile-name-acronym-profile">X &lt;Profile Name (Acronym)&gt; Profile</h2>
+<h3 class="list-paragraph" id="x-profile-name-acronym-profile">X &lt;Profile Name (Acronym)&gt; Profile</h3>
 <p>&lt;Provide an end-user friendly overview of what the profile does for them. Keep it brief (a paragraph or two, up to a page). If extensive detail is needed, it should be included in Section X.4- Use Cases.&gt;</p>
 <p>&lt;Explicitly state whether this is a Workflow, Transport, or Content Module (or combination) profile. See the IHE Technical Frameworks General Introduction for definitions of these profile types. The IHE Technical Frameworks General Introduction is published at <a href="http://ihe.net/Technical_Frameworks/"><em>http://ihe.net/Technical_Frameworks</em></a>.</p>
-<h2 class="list-paragraph" id="x.1-profile-acronym-actors-transactions-and-content-modules">X.1 &lt;Profile Acronym&gt; Actors, Transactions, and Content Modules</h2>
+<h3 class="list-paragraph" id="x.1-profile-acronym-actors-transactions-and-content-modules">X.1 &lt;Profile Acronym&gt; Actors, Transactions, and Content Modules</h3>
 <p>This section defines the actors, transactions, and/or content modules in this profile. General definitions of actors are given in the Technical Frameworks General Introduction Appendix A. IHE Transactions can be found in the Technical Frameworks General Introduction Appendix B. Both appendices are located at <a href="http://ihe.net/Technical_Frameworks/#GenIntro">http://ihe.net/Technical_Frameworks/#GenIntro</a></p>
 <p><em>&lt;Workflow/Transport Instructions&gt;</em></p>
 <p>&lt;If this profile does not define workflow or transport transactions, delete the following text and diagram until the “Content Module Instructions” below.&gt;</p>
@@ -150,7 +150,7 @@
 <p>Note 1: <em>&lt;For example, a note could describe that one of two possible transactions could be supported by an actor or other variations.</em></p>
 <p><em>For example - Note 1: Either Content Module 2 or Content Module 3 shall be implemented for the Content Creator or Content Consumer.</em></p>
 <p><em>For example- Note 1: At least one of Content Module 2, Content Module 3, or Content Module 4 shall be implemented for Content Consumer.&gt;</em></p>
-<h3 class="list-paragraph" id="x.1.1-actor-descriptions-and-actor-profile-requirements"><strong>X.1.1 Actor Descriptions and Actor Profile Requirements</strong></h3>
+<h4 class="list-paragraph" id="x.1.1-actor-descriptions-and-actor-profile-requirements"><strong>X.1.1 Actor Descriptions and Actor Profile Requirements</strong></h4>
 <p><em>&lt;For Workflow Profile:&gt;</em></p>
 <p>Most requirements are documented in &lt;DOM&gt; TF-2 Transactions. This section documents any additional requirements on profile’s actors.</p>
 <p>&lt;Enter here “No additional requirements needed.”, if none.&gt;</p>
@@ -162,11 +162,11 @@
 <p>&lt;If this is a Workflow Profile the sequence of transactions often require data from an inbound transaction to be carried forward to subsequent transactions . Individual transactions, which are designed to be reusable, do not define this data mapping and it must be documented here. If this is a long technical mapping, consider including this material in an appendix to Volume 2. For an example, see Radiology Scheduled Workflow RAD TF-2: Appendix A.&gt;</p>
 <p>&lt;This section may also define system behavior. For example, in the PIX Profile, an ADT message is first received by the PIX Manager. The PIX Manager should then use this data to respond to subsequent queries. Although this may be implied, it should be explicitly documented in this section.&gt;</p>
 <p>&lt;Note that for actors in, bindings to other transport or workflow modules are referenced in the Required Actor Groupings section below. &gt;</p>
-<h4 class="list-paragraph" id="x.1.1.1-actor-a">X.1.1.1 &lt;Actor A&gt;</h4>
+<h5 class="list-paragraph" id="x.1.1.1-actor-a">X.1.1.1 &lt;Actor A&gt;</h5>
 <p>&lt;If the summary description of the actor in Appendix A is insufficient to understand its role in this profile, elaborate here.&gt;</p>
 <p>&lt;Requirements on actors are predominantly contained inside transactions in Volume 2. The main requirement on actors contained in Volume 1 is to support the transactions identified in Table X.1-1 and the content modules identified in Table Z. Requirements that do not fit in those locations may be placed here.&gt;</p>
-<h4 class="list-paragraph" id="x.1.1.2-actor-b">X.1.1.2 &lt;Actor B&gt;</h4>
-<h2 class="list-paragraph" id="x.2-profile-acronym-actor-options">X.2 &lt;Profile Acronym&gt; Actor Options</h2>
+<h5 class="list-paragraph" id="x.1.1.2-actor-b">X.1.1.2 &lt;Actor B&gt;</h5>
+<h3 class="list-paragraph" id="x.2-profile-acronym-actor-options">X.2 &lt;Profile Acronym&gt; Actor Options</h3>
 <p>&lt;Modify the following table, listing all the actors in this profile, the options available for each, and references to sections that state requirements for compliance to each option. For actors with no options, state “No options defined” in column 2.&gt;</p>
 <p>&lt;Note: Options are directly carried over to the integration statements which are published by vendors for review by buyers. Too many options can be confusing for readers, so try to <strong>minimize</strong> options for actors and only use if necessary.&gt;</p>
 <p>&lt;Several options for Content Consumers are defined in PCC TF-2: 3.1.1-3.1.4. It is recommended that these options are reused, if applicable, but read the option definitions thoroughly to be certain that they apply. If they do not apply in their entirety, you will need to define a corresponding option in this profile. The recommended naming convention for a similar, but different, option is, for example, “View Option - &lt;profile acronym&gt;, etc., “View Option – CIRC”.&gt;</p>
@@ -227,13 +227,13 @@
 </table>
 <p>Note: <em>&lt;Conditional or required options must be described in this short note, for longer notes use Section X.2.1.&gt;</em></p>
 <p><em>&lt;Add a sub-section below for every new option defined in Table X.2-1.&gt;</em></p>
-<h3 class="list-paragraph" id="x.2.1-option-name">X.2.1 &lt;Option Name&gt;</h3>
+<h4 class="list-paragraph" id="x.2.1-option-name">X.2.1 &lt;Option Name&gt;</h4>
 <p>&lt;First, include a sentence with a high-level description of the option. What capability does this option enable in the profile? Then, enumerate the specific requirements for the actor(s) that support this option.&gt;</p>
 <p>An <em>&lt;actor name&gt;</em> that supports this option shall <em>&lt;Describe the requirements associated with this option.&gt;</em></p>
 <p>&lt;Sometimes an option requires that an optional transaction becomes mandatory. In that case, list the transaction as Optional in Table X.1-1, but indicate in this section that it is required, e.g., Transaction [DOM-Y4 is required for Actor-B that supports this option.”&gt;</p>
 <p>&lt;Sometimes an option requires that the actor be grouped with an actor in another profile. In that case, describe that here and also refer to the Required Grouping table in the next section. E.g., “An Actor-A that supports the Really Secure Option shall be grouped with an Secure Node or Secure Application in the ATNA Profile. See Table X.3-1.”&gt;</p>
 <p>&lt;Repeat this section (and increment numbering) as needed for additional options.&gt;</p>
-<h2 class="list-paragraph" id="x.3-profile-acronym-required-actor-groupings">X.3 &lt;Profile Acronym&gt; Required Actor Groupings </h2>
+<h3 class="list-paragraph" id="x.3-profile-acronym-required-actor-groupings">X.3 &lt;Profile Acronym&gt; Required Actor Groupings </h3>
 <p><em>&lt;Describe any requirements for actors in this profile to be grouped with other actors.&gt;</em></p>
 <p><em>&lt;Note that this section effectively combines sections from previous versions of the template: “Profile Dependencies” section (formerly Vol. 1, Section 2.1) and the “Groupings” section.&gt;</em></p>
 <p><em>&lt;This section specifies all REQUIRED Actor Groupings (although “required” sometimes allows for a selection of one of several). To SUGGEST other profile groupings or helpful references for other profiles to consider, use Section X.6 Cross Profile Considerations. Use Section X.5 for security profile recommendations.&gt;</em></p>
@@ -416,19 +416,19 @@
 </tr>
 </tbody>
 </table>
-<h2 class="list-paragraph" id="x.4-profile-acronym-overview">X.4 &lt;Profile Acronym&gt; Overview</h2>
+<h3 class="list-paragraph" id="x.4-profile-acronym-overview">X.4 &lt;Profile Acronym&gt; Overview</h3>
 <p><em>&lt;Volume 2 documents each transaction/content module in isolation. This section shows how the transactions/content modules of the profile are combined to address the use cases.&gt;</em></p>
 <p><em>&lt;Use cases are informative, not normative, and “SHALL” language is not allowed in use cases.&gt;</em></p>
-<h3 class="list-paragraph" id="x.4.1-concepts"><strong>X.4.1 Concepts</strong></h3>
+<h4 class="list-paragraph" id="x.4.1-concepts"><strong>X.4.1 Concepts</strong></h4>
 <p>&lt;If needed, this section provides an overview of the concepts that provide necessary background for understanding the profile. If not needed, state “Not applicable.” For an example of why/how this section may be needed, please see ITI Cross Enterprise Workflow (XDW).&gt;</p>
 <p>&lt;It may be useful in this section but is not necessary, to provide a short list of the use cases described below and explain why they are different.&gt;</p>
-<h3 class="list-paragraph" id="x.4.2-use-cases"><strong>X.4.2 Use Cases</strong></h3>
-<h4 class="list-paragraph" id="x.4.2.1-use-case-1-simple-name">X.4.2.1 Use Case #1: &lt;simple name&gt;</h4>
+<h4 class="list-paragraph" id="x.4.2-use-cases"><strong>X.4.2 Use Cases</strong></h4>
+<h5 class="list-paragraph" id="x.4.2.1-use-case-1-simple-name">X.4.2.1 Use Case #1: &lt;simple name&gt;</h5>
 <p>&lt;One or two sentence simple description of this particular use case.&gt;</p>
 <p>&lt;Note that Section X.4.2.1 repeats in its entirety for additional use cases (replicate as Section X.4.2.2, X.4.2.3, etc.).&gt;</p>
-<h5 class="list-paragraph" id="x.4.2.1.1-simple-name-use-case-description">X.4.2.1.1 &lt;<strong>simple name&gt;</strong> Use Case Description</h5>
+<h6 class="list-paragraph" id="x.4.2.1.1-simple-name-use-case-description">X.4.2.1.1 &lt;<strong>simple name&gt;</strong> Use Case Description</h6>
 <p>&lt;Describe the key use cases addressed by the profile. Limit to a maximum of one page of text or consider an appendix.&gt;</p>
-<h5 class="list-paragraph" id="x.4.2.1.2-simple-name-process-flow">X.4.2.1.2 &lt;simple name&gt; Process Flow</h5>
+<h6 class="list-paragraph" id="x.4.2.1.2-simple-name-process-flow">X.4.2.1.2 &lt;simple name&gt; Process Flow</h6>
 <p>&lt;Diagram and describe the process flow(s) covered by this profile in order to satisfy the use cases. Demonstrate how the profile transactions are combined/sequenced. To provide context and demonstrate how the profile interacts with other profiles, feel free to include transactions and events that are “external” to this profile (using appropriate notation.)</p>
 <p>The set of process flows will typically be exemplary, not exhaustive (i.e., it will address all the use cases, but will not show all possible combinations of actors, or all possible sequencing of transactions).</p>
 <p>If there are detailed behavioral rules that apply to a specific process flow or multiple process flows, an appendix may be added as needed.&gt;</p>
@@ -443,11 +443,11 @@
 <p>&lt;Typically in an enumerated list, describe the clinical workflow when, where, and how this content module would be used.&gt;</p>
 <p><strong>Post-conditions:</strong></p>
 <p>&lt;Very briefly (typically one sentence) describe the state of the clinical scenario after this content module has been created including examples of potential next steps.&gt;</p>
-<h2 class="list-paragraph" id="x.5-profile-acronym-security-considerations">X.5 &lt;Profile Acronym&gt; Security Considerations</h2>
+<h3 class="list-paragraph" id="x.5-profile-acronym-security-considerations">X.5 &lt;Profile Acronym&gt; Security Considerations</h3>
 <p>&lt;Describe profile-specific security considerations. This should include the outcomes of a risk assessment. This likely will include profile groupings, and residual risks that need to be assigned to the product design, system administration, or policy. See the ITI document titled ‘Cookbook: Preparing the IHE Profile Security Section’ at <a href="http://ihe.net/Technical_Frameworks/#IT">http://ihe.net/Technical_Frameworks/#IT</a> for suggestions on risk assessment, risk mitigation, and IT and security profiles.&gt;</p>
 <p>&lt;If this is not a content module, delete the sentence below. If this is a content module profile, you may want to expound upon the security considerations provided by grouped actors.&gt;</p>
 <p><em>The security considerations for a content module are dependent upon the security provisions defined by the grouped actor(s).</em></p>
-<h2 class="list-paragraph" id="x.6-profile-acronym-cross-profile-considerations">X.6 &lt;Profile Acronym&gt; Cross Profile Considerations</h2>
+<h3 class="list-paragraph" id="x.6-profile-acronym-cross-profile-considerations">X.6 &lt;Profile Acronym&gt; Cross Profile Considerations</h3>
 <p>&lt;This section is informative, not normative. It is intended to put this profile in context with other profiles. Any required groupings should have already been described above. Brief descriptions can go directly into this section; lengthy descriptions should go into an appendix. Examples of this material include ITI Cross Community Access (XCA) Grouping Rules (Section 18.2.3), the Radiology associated profiles listed at wiki.ihe.net, or ITI Volume 1 Appendix E “Cross Profile Considerations”, and the “See Also” sections Radiology Profile descriptions on the wiki such as <a href="http://wiki.ihe.net/index.php/Scheduled_Workflow#See_Also">http://wiki.ihe.net/index.php/Scheduled_Workflow#See_Also</a>. If this section is left blank, add “Not applicable.” &gt;</p>
 <p><em>&lt;Consider using a format such as the following:&gt;</em></p>
 <p>&lt;other profile acronym&gt; - &lt;other profile name&gt;</p>
