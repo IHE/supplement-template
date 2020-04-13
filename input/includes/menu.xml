@@ -1,33 +1,72 @@
 <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li><a href="index.html">IG Home</a></li>
   <li><a href="toc.html">Table of Contents</a></li>
+  <li class="dropdown"> <a data-toggle="dropdown" href="#" class="dropdown-toggle">Supplement Template<b class="caret"></b></a> 
+    <ul class="dropdown-menu">
+	  <li><a href="#">Overview</a></li>
+	  <li><a href="#">Actors and Transactions</a></li>
+	  <li><a href="#">Profile Options</a></li>
+	  <li><a href="#">Security Considerations</a></li>
+    </ul>
+</li>
+
+
+  <li class="dropdown"> <a data-toggle="dropdown" href="#" class="usecases">Use Cases and Data models<b class="caret"></b></a> 
+    <ul class="dropdown-menu">
+        <li><a href="#">Background</a></li>
+        <li><a href="#">Data Mode Overview</a></li>
+        <li><a href="#">Use Case Overview</a></li>
+		<li><a href="#">Dependencies</a></li>
+		<li><a href="#">Regulatory aspects</a></li>
+    </ul>
+
+	</li>
+	
+<li class="dropdown"> <a data-toggle="dropdown" href="#" class="transactions">Transactions<b class="caret"></b></a>
+    <ul class="dropdown-menu">
+        <li><a href="#">Actor Overview</a></li>
+        <li><a href="#">[IHE-1] Transaction 1</a></li>
+        <li><a href="#">[IHE-2] Transaction 2</a></li>		
+        <li><a href="#">Option overview</a></li>
+		<li><a href="#">Security Considerations</a></li>
+		<li><a href="#">Cross Profile Considerations</a></li>
+    </ul>
+  </li>
+
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">MyIg Background<b class="caret">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Content Profiles<b class="caret">
       </b>
     </a>
     <ul class="dropdown-menu">
-      <li><a href="background.html">Background</a></li>
-		<li>Actor - A</li>
-		<li>Actor - B</li>
-		<li>Transaction - T1</li>
-		<li>Transaction - T2</li>
-		<li>Option O1</li>
-		<li>Option O2</li>
-		<li><a href="securityconsiderations.html">Security and Privacy Considerations</a></li>
-		<li>Cross Profile Considerations</li>
+      <li>
+        <a href="#">Questionnaire Resource</a>
+      </li>
+      <li>
+        <a href="#">Questionnaire Response Resource</a>
+      </li>
+      <li>
+        <a href="#">Launch URL Extension</a>
+      </li>
+      <li>
+        <a href="#">Contained Questionnaire Extension</a>
+      </li>
     </ul>
   </li>
+
+
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Use-Case<b class="caret">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Terminology<b class="caret">
       </b>
     </a>
     <ul class="dropdown-menu">
-      <li><a href="spec.html">Detailed Specification</a></li>
-	  <li>Use-case 1</li>
-	  <li>Use-case 2</li>
     </ul>
   </li>
+
+
+
+
   <li><a href="artifacts.html">Artifact Index</a></li>
+
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support<b class="caret">
       </b>
