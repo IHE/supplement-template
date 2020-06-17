@@ -17,11 +17,14 @@
   </p>
   <ul>
     <li>
-      <a href="background.html">Background</a> - provides business context for the implementation guide and information that implementers should be
+      <a href="Volume1.html">Volume 1</a> - provides business context for the implementation guide and information that implementers should be
       familiar with before reading the remainder of the IG.  There could be multiple pages for this.
     </li>
     <li>
-      <a href="spec.html">Detailed Specification</a> - The actual stuff implementers are expected to do.  (Could be multiple pages for this.)
+      <a href="Volume2.html">Detailed Transaction Specification</a> - The technical details of transactions within.  (Could be multiple pages for this.)
+    </li>
+    <li>
+      <a href="Volume3.html">Detailed Metadata and Content Specification</a> - The technical details of metadata and content profiles within.  (Could be multiple pages for this.)
     </li>
     <li>
       <a href="downloads.html">Downloads</a> - Allows downloading a copy of this implementation guide and other useful information
