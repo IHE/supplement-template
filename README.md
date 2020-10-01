@@ -1,6 +1,10 @@
 # Status
 This repository is under-construction. Please don't use it yet... 
 
+# Overall organization
+![](classnotes/Organization.svg)
+
+
 # Getting Started
 This repository holds the IHE supplement template equivilant for use with the IG publisher. 
 
