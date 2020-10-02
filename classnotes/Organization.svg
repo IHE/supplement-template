@@ -1,96 +1,118 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="737px" preserveAspectRatio="none" style="width:952px;height:737px;" version="1.1" viewBox="0 0 952 737" width="952px" zoomAndPan="magnify"><defs><filter height="300%" id="fp1430j1ugg8" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[e8c5cdfd267873df5719b135bad3c85c]
-cluster IHE Supplement--><polygon fill="#FFFFFF" filter="url(#fp1430j1ugg8)" points="16,6,148,6,155,28.2969,935,28.2969,935,730,16,730,16,6" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="16" x2="155" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="126" x="20" y="20.9951">IHE Supplement</text><!--MD5=[c18b89129cefcfe6a09f9e4e38a42c26]
-cluster v6--><polygon fill="#FFFFFF" filter="url(#fp1430j1ugg8)" points="57,578,223,578,230,600.2969,589,600.2969,589,698,57,698,57,578" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="57" x2="230" y1="600.2969" y2="600.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="160" x="61" y="592.9951">Volume 6: test plan</text><!--MD5=[1019aa2adb0570ff0cb690b3ca047859]
-cluster v5--><polygon fill="#C9FFC9" filter="url(#fp1430j1ugg8)" points="67,449,233,449,240,471.2969,892,471.2969,892,538,67,538,67,449" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="67" x2="240" y1="471.2969" y2="471.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="160" x="71" y="463.9951">Volume 5: Artifacts</text><!--MD5=[0263fe157d4be94a970bc0451cf22135]
-cluster v3--><polygon fill="#FFE0E0" filter="url(#fp1430j1ugg8)" points="48,256.5,205,256.5,212,278.7969,217,278.7969,217,376.5,48,376.5,48,256.5" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="48" x2="212" y1="278.7969" y2="278.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="151" x="52" y="271.4951">Volume 3: Content</text><!--MD5=[8f568eda7f993736a9f8e47c0c4df829]
-cluster v2--><polygon fill="#FFE0E0" filter="url(#fp1430j1ugg8)" points="257,186,457,186,464,208.2969,903,208.2969,903,409,257,409,257,186" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="257" x2="464" y1="208.2969" y2="208.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="194" x="261" y="200.9951">Volume 2: Transactions</text><!--MD5=[2c94227c57911c476235c57439f3e1e6]
-cluster Transaction-1--><polygon fill="#FFE0E0" filter="url(#fp1430j1ugg8)" points="297,237,418,237,425,259.2969,871,259.2969,871,377,297,377,297,237" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="297" x2="425" y1="259.2969" y2="259.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="115" x="301" y="251.9951">Transaction-1</text><!--MD5=[6e5c8056b648ae1da3c0d89f1dd97631]
-cluster message-1--><polygon fill="#FFE0E0" filter="url(#fp1430j1ugg8)" points="321,280,414,280,421,302.2969,847,302.2969,847,353,321,353,321,280" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="321" x2="421" y1="302.2969" y2="302.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="87" x="325" y="294.9951">message-1</text><!--MD5=[8e77b7e547229f24b493a64948e4032b]
-cluster v4--><polygon fill="#FFFFFF" filter="url(#fp1430j1ugg8)" points="629,578,883,578,890,600.2969,893,600.2969,893,698,629,698,629,578" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="629" x2="890" y1="600.2969" y2="600.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="248" x="633" y="592.9951">Volume 4: National Extensions</text><!--MD5=[9a32cd3984fdd08205638aa42968fc5c]
-cluster v1--><polygon fill="#C2F0FF" filter="url(#fp1430j1ugg8)" points="72,57,322,57,329,79.2969,879,79.2969,879,146,72,146,72,57" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="72" x2="329" y1="79.2969" y2="79.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="244" x="76" y="71.9951">Volume 1: Use-Case Definition</text><polygon fill="#D2691E" filter="url(#fp1430j1ugg8)" points="431.5,621,550.5,621,557.5,643.2969,564.5,643.2969,564.5,673.5938,431.5,673.5938,431.5,621" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="431.5" x2="557.5" y1="643.2969" y2="643.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="113" x="435.5" y="635.9951">coverage plan</text><polygon fill="#D2691E" filter="url(#fp1430j1ugg8)" points="295.5,621,382.5,621,389.5,643.2969,396.5,643.2969,396.5,673.5938,295.5,673.5938,295.5,621" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="295.5" x2="389.5" y1="643.2969" y2="643.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="81" x="299.5" y="635.9951">unit tests</text><polygon fill="#D2691E" filter="url(#fp1430j1ugg8)" points="100,621,246,621,253,643.2969,260,643.2969,260,673.5938,100,673.5938,100,621" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="100" x2="253" y1="643.2969" y2="643.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="140" x="104" y="635.9951">integration tests</text><!--MD5=[71eff33f2316d5b64c9d804c2c66943a]
-entity vocabulary--><rect fill="#800080" filter="url(#fp1430j1ugg8)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="97" x="770.5" y="492"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="780.5" y="507.9951">vocabulary</text><!--MD5=[7d53c92111d736d205d24291d655044b]
-entity valueSet--><rect fill="#800080" filter="url(#fp1430j1ugg8)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="82" x="653" y="492"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="663" y="507.9951">valueSet</text><!--MD5=[76a21f67e0dc822f2385c50eb3dbafff]
-entity conceptMap--><rect fill="#800080" filter="url(#fp1430j1ugg8)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="110" x="508" y="492"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="90" x="518" y="507.9951">conceptMap</text><!--MD5=[b8dca14e9df0158789b463554f8f1564]
-entity structureDefinition--><rect fill="#800080" filter="url(#fp1430j1ugg8)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="158" x="315" y="492"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="138" x="325" y="507.9951">structureDefinition</text><!--MD5=[f79107bf4a9cd1bcfb656578c2fc3b64]
-entity capabilityStatement--><rect fill="#800080" filter="url(#fp1430j1ugg8)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="170" x="110" y="492"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="150" x="120" y="507.9951">capabilityStatement</text><polygon fill="#9ACD32" filter="url(#fp1430j1ugg8)" points="91.5,299.5,178.5,299.5,185.5,321.7969,192.5,321.7969,192.5,352.0938,91.5,352.0938,91.5,299.5" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="91.5" x2="185.5" y1="321.7969" y2="321.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="81" x="95.5" y="314.4951">Content-1</text><!--MD5=[8c93aac3f32ffef578494205ee499da9]
-entity Trigger Events--><rect fill="#9ACD32" filter="url(#fp1430j1ugg8)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="125" x="705.5" y="315"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="105" x="715.5" y="330.9951">Trigger Events</text><!--MD5=[8c9cb31a8c5dc8b98fdfebd030737d3d]
-entity Message Encoding--><rect fill="#9ACD32" filter="url(#fp1430j1ugg8)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="151" x="519.5" y="315"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="131" x="529.5" y="330.9951">Message Encoding</text><!--MD5=[a82425ed0a91c3a831b41a92b4442e01]
-entity Expected Actions--><rect fill="#9ACD32" filter="url(#fp1430j1ugg8)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="147" x="337.5" y="315"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="127" x="347.5" y="330.9951">Expected Actions</text><polygon fill="#00BFFF" filter="url(#fp1430j1ugg8)" points="799,621,837,621,844,643.2969,851,643.2969,851,673.5938,799,673.5938,799,621" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="799" x2="844" y1="643.2969" y2="643.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="32" x="803" y="635.9951">USA</text><polygon fill="#FF6347" filter="url(#fp1430j1ugg8)" points="690,621,750,621,757,643.2969,764,643.2969,764,673.5938,690,673.5938,690,621" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="690" x2="757" y1="643.2969" y2="643.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="54" x="694" y="635.9951">France</text><!--MD5=[796c349c405d0140bec87a2540285fac]
-entity gb--><rect fill="#FFFFCC" filter="url(#fp1430j1ugg8)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="153" x="701.5" y="100"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="711.5" y="115.9951">Grouping Behavior</text><!--MD5=[f6c8693f2725baec96dbc257309cbcf0]
-entity sc--><rect fill="#FFFFCC" filter="url(#fp1430j1ugg8)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="190" x="476" y="100"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="486" y="115.9951">Security Considerations</text><!--MD5=[1ddf4c6f02345fb897bb5fa7a9d9481b]
-entity Options--><rect fill="#FFFFCC" filter="url(#fp1430j1ugg8)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="77" x="363.5" y="100"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="373.5" y="115.9951">Options</text><!--MD5=[ab5865aea8463589da2c365bf4ff65ed]
-entity Transactions--><rect fill="#FFFFCC" filter="url(#fp1430j1ugg8)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="111" x="217.5" y="100"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="91" x="227.5" y="115.9951">Transactions</text><!--MD5=[78ccb8af8386e9662b38d82b767a86a5]
-entity Actors--><rect fill="#FFFFCC" filter="url(#fp1430j1ugg8)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="67" x="115.5" y="100"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="47" x="125.5" y="115.9951">Actors</text><!--MD5=[0c9c41c3a127f69cdc321579e1b5e109]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="737px" preserveAspectRatio="none" style="width:1396px;height:737px;" version="1.1" viewBox="0 0 1396 737" width="1396px" zoomAndPan="magnify"><defs><filter height="300%" id="fhhlgsrw26u4j" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[e8c5cdfd267873df5719b135bad3c85c]
+cluster IHE Supplement--><polygon fill="#FFFFFF" filter="url(#fhhlgsrw26u4j)" points="16,6,148,6,155,28.2969,1379,28.2969,1379,730,16,730,16,6" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="16" x2="155" y1="28.2969" y2="28.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="126" x="20" y="20.9951">IHE Supplement</text><!--MD5=[c18b89129cefcfe6a09f9e4e38a42c26]
+cluster v6--><polygon fill="#FFFFFF" filter="url(#fhhlgsrw26u4j)" points="48,578,214,578,221,600.2969,1043,600.2969,1043,698,48,698,48,578" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="48" x2="221" y1="600.2969" y2="600.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="160" x="52" y="592.9951">Volume 6: test plan</text><!--MD5=[1019aa2adb0570ff0cb690b3ca047859]
+cluster v5--><polygon fill="#C9FFC9" filter="url(#fhhlgsrw26u4j)" points="94,449,260,449,267,471.2969,1300,471.2969,1300,538,94,538,94,449" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="94" x2="267" y1="471.2969" y2="471.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="160" x="98" y="463.9951">Volume 5: Artifacts</text><!--MD5=[0263fe157d4be94a970bc0451cf22135]
+cluster v3--><polygon fill="#FFE0E0" filter="url(#fhhlgsrw26u4j)" points="71,229,228,229,235,251.2969,386,251.2969,386,385,71,385,71,229" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="71" x2="235" y1="251.2969" y2="251.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="151" x="75" y="243.9951">Volume 3: Content</text><!--MD5=[55a66303633bd41495802e207eedba3e]
+cluster Content-1--><polygon fill="#9ACD32" filter="url(#fhhlgsrw26u4j)" points="111,280,198,280,205,302.2969,354,302.2969,354,353,111,353,111,280" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="111" x2="205" y1="302.2969" y2="302.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="81" x="115" y="294.9951">Content-1</text><!--MD5=[8f568eda7f993736a9f8e47c0c4df829]
+cluster v2--><polygon fill="#FFE0E0" filter="url(#fhhlgsrw26u4j)" points="426,186,626,186,633,208.2969,1072,208.2969,1072,409,426,409,426,186" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="426" x2="633" y1="208.2969" y2="208.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="194" x="430" y="200.9951">Volume 2: Transactions</text><!--MD5=[2c94227c57911c476235c57439f3e1e6]
+cluster Transaction-1--><polygon fill="#FFE0E0" filter="url(#fhhlgsrw26u4j)" points="466,237,587,237,594,259.2969,1040,259.2969,1040,377,466,377,466,237" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="466" x2="594" y1="259.2969" y2="259.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="115" x="470" y="251.9951">Transaction-1</text><!--MD5=[6e5c8056b648ae1da3c0d89f1dd97631]
+cluster message-1--><polygon fill="#FFE0E0" filter="url(#fhhlgsrw26u4j)" points="490,280,583,280,590,302.2969,1016,302.2969,1016,353,490,353,490,280" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="490" x2="590" y1="302.2969" y2="302.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="87" x="494" y="294.9951">message-1</text><!--MD5=[8e77b7e547229f24b493a64948e4032b]
+cluster v4--><polygon fill="#FFFFFF" filter="url(#fhhlgsrw26u4j)" points="1083,578,1337,578,1344,600.2969,1347,600.2969,1347,698,1083,698,1083,578" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="1083" x2="1344" y1="600.2969" y2="600.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="248" x="1087" y="592.9951">Volume 4: National Extensions</text><!--MD5=[9a32cd3984fdd08205638aa42968fc5c]
+cluster v1--><polygon fill="#C2F0FF" filter="url(#fhhlgsrw26u4j)" points="225,57,463,57,470,79.2969,1157,79.2969,1157,146,225,146,225,57" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="225" x2="470" y1="79.2969" y2="79.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="232" x="229" y="71.9951">Volume 1: Use-Case Analysis</text><polygon fill="#D2691E" filter="url(#fhhlgsrw26u4j)" points="885.5,621,1004.5,621,1011.5,643.2969,1018.5,643.2969,1018.5,673.5938,885.5,673.5938,885.5,621" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="885.5" x2="1011.5" y1="643.2969" y2="643.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="113" x="889.5" y="635.9951">coverage plan</text><polygon fill="#D2691E" filter="url(#fhhlgsrw26u4j)" points="749.5,621,836.5,621,843.5,643.2969,850.5,643.2969,850.5,673.5938,749.5,673.5938,749.5,621" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="749.5" x2="843.5" y1="643.2969" y2="643.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="81" x="753.5" y="635.9951">unit tests</text><polygon fill="#D2691E" filter="url(#fhhlgsrw26u4j)" points="554,621,700,621,707,643.2969,714,643.2969,714,673.5938,554,673.5938,554,621" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="554" x2="707" y1="643.2969" y2="643.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="140" x="558" y="635.9951">integration tests</text><polygon fill="#D2691E" filter="url(#fhhlgsrw26u4j)" points="357.5,621,504.5,621,511.5,643.2969,518.5,643.2969,518.5,673.5938,357.5,673.5938,357.5,621" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="357.5" x2="511.5" y1="643.2969" y2="643.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="141" x="361.5" y="635.9951">example scenario</text><polygon fill="#D2691E" filter="url(#fhhlgsrw26u4j)" points="223.5,621,308.5,621,315.5,643.2969,322.5,643.2969,322.5,673.5938,223.5,673.5938,223.5,621" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="223.5" x2="315.5" y1="643.2969" y2="643.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="79" x="227.5" y="635.9951">cucumber</text><polygon fill="#D2691E" filter="url(#fhhlgsrw26u4j)" points="91.5,621,174.5,621,181.5,643.2969,188.5,643.2969,188.5,673.5938,91.5,673.5938,91.5,621" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="91.5" x2="181.5" y1="643.2969" y2="643.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="77" x="95.5" y="635.9951">test data</text><!--MD5=[71eff33f2316d5b64c9d804c2c66943a]
+entity vocabulary--><rect fill="#800080" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="97" x="1178.5" y="492"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="77" x="1188.5" y="507.9951">vocabulary</text><!--MD5=[7d53c92111d736d205d24291d655044b]
+entity valueSet--><rect fill="#800080" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="82" x="1061" y="492"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="1071" y="507.9951">valueSet</text><!--MD5=[76a21f67e0dc822f2385c50eb3dbafff]
+entity conceptMap--><rect fill="#800080" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="110" x="916" y="492"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="90" x="926" y="507.9951">conceptMap</text><!--MD5=[b8dca14e9df0158789b463554f8f1564]
+entity structureDefinition--><rect fill="#800080" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="158" x="723" y="492"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="138" x="733" y="507.9951">structureDefinition</text><!--MD5=[f79107bf4a9cd1bcfb656578c2fc3b64]
+entity capabilityStatement--><rect fill="#800080" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="170" x="518" y="492"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="150" x="528" y="507.9951">capabilityStatement</text><!--MD5=[7e6c85c7c0f054c5b85486f634b7c95f]
+entity OperationDefinition--><rect fill="#800080" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="165" x="317.5" y="492"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="145" x="327.5" y="507.9951">OperationDefinition</text><!--MD5=[76d0d042f30494e065787715287fff38]
+entity SearchParameter--><rect fill="#800080" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="145" x="137.5" y="492"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="125" x="147.5" y="507.9951">SearchParameter</text><!--MD5=[8c2793f18c0d2d4e65a4ad8131d5f8b3]
+entity encoding--><rect fill="#FFFFFF" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="86" x="252" y="315"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="66" x="262" y="330.9951">encoding</text><!--MD5=[87734a20c2eaadadc712f7efe19c3795]
+entity metadata--><rect fill="#FFFFFF" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="90" x="127" y="315"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="137" y="330.9951">metadata</text><!--MD5=[8c93aac3f32ffef578494205ee499da9]
+entity Trigger Events--><rect fill="#9ACD32" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="125" x="874.5" y="315"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="105" x="884.5" y="330.9951">Trigger Events</text><!--MD5=[8c9cb31a8c5dc8b98fdfebd030737d3d]
+entity Message Encoding--><rect fill="#9ACD32" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="151" x="688.5" y="315"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="131" x="698.5" y="330.9951">Message Encoding</text><!--MD5=[a82425ed0a91c3a831b41a92b4442e01]
+entity Expected Actions--><rect fill="#9ACD32" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="147" x="506.5" y="315"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="127" x="516.5" y="330.9951">Expected Actions</text><polygon fill="#00BFFF" filter="url(#fhhlgsrw26u4j)" points="1253,621,1291,621,1298,643.2969,1305,643.2969,1305,673.5938,1253,673.5938,1253,621" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="1253" x2="1298" y1="643.2969" y2="643.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="32" x="1257" y="635.9951">USA</text><polygon fill="#FF6347" filter="url(#fhhlgsrw26u4j)" points="1144,621,1204,621,1211,643.2969,1218,643.2969,1218,673.5938,1144,673.5938,1144,621" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="1144" x2="1211" y1="643.2969" y2="643.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="54" x="1148" y="635.9951">France</text><!--MD5=[796c349c405d0140bec87a2540285fac]
+entity gb--><rect fill="#FFFFCC" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="153" x="979.5" y="100"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="133" x="989.5" y="115.9951">Grouping Behavior</text><!--MD5=[f6c8693f2725baec96dbc257309cbcf0]
+entity sc--><rect fill="#FFFFCC" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="190" x="754" y="100"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="170" x="764" y="115.9951">Security Considerations</text><!--MD5=[1ddf4c6f02345fb897bb5fa7a9d9481b]
+entity Options--><rect fill="#FFFFCC" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="77" x="641.5" y="100"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="57" x="651.5" y="115.9951">Options</text><!--MD5=[ab5865aea8463589da2c365bf4ff65ed]
+entity Transactions--><rect fill="#FFFFCC" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="111" x="495.5" y="100"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="91" x="505.5" y="115.9951">Transactions</text><!--MD5=[78ccb8af8386e9662b38d82b767a86a5]
+entity Actors--><rect fill="#FFFFCC" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="67" x="393.5" y="100"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="47" x="403.5" y="115.9951">Actors</text><!--MD5=[aeff5ef020a2f8eccddc43860114f137]
+entity Use-cases--><rect fill="#FFFFCC" filter="url(#fhhlgsrw26u4j)" height="22.2969" style="stroke: #000000; stroke-width: 1.5;" width="90" x="268" y="100"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="70" x="278" y="115.9951">Use-cases</text><!--MD5=[0c9c41c3a127f69cdc321579e1b5e109]
 link v1 to v2--><!--MD5=[f4eb36408bf17508fb8c0c30b6b04ff1]
 link v1 to v3--><!--MD5=[2d769ca28303d88e0eccc2fa40fe8433]
 link v2 to v5--><!--MD5=[637eb3ac0fc7d8b399e665d8a8daf2d0]
 link v3 to v5--><!--MD5=[d0e401c6ff7324f9132159a663b82996]
 link v5 to v4--><!--MD5=[11bc6b5c1c48ffb92ce6ab887d776de4]
-link v5 to v6--><!--MD5=[f7d2592dc235a67d2d7f22f235c014d7]
+link v5 to v6--><!--MD5=[d056c4ffbe93eb7e3a4f8f81fa59f8fd]
 @startuml
 package "IHE Supplement" {
 
-package "Volume 6: test plan" as v6 {
-package "coverage plan" #Chocolate{
-}
-package "unit tests" #Chocolate{
-}
-package "integration tests" #Chocolate{
-}
-}
+  package "Volume 6: test plan" as v6 {
+    package "coverage plan" #Chocolate {
+    }
+    package "unit tests" #Chocolate {
+    }
+    package "integration tests" #Chocolate {
+    }
+    package "example scenario" #Chocolate {
+    }
+    package "cucumber" #Chocolate {
+    }
+    package "test data" #Chocolate {
+    }
+  }
 
 
-package "Volume 5: Artifacts" as v5 #TECHNOLOGY {
-card vocabulary #Purple {
-}
-card valueSet #Purple {
-}
-card conceptMap #Purple {
-}
-card structureDefinition #Purple {
-}
-card capabilityStatement #Purple {
-}
-}
+  package "Volume 5: Artifacts" as v5 #TECHNOLOGY {
+    card vocabulary #Purple {
+    }
+    card valueSet #Purple {
+    }
+    card conceptMap #Purple {
+    }
+    card structureDefinition #Purple {
+    }
+    card capabilityStatement #Purple {
+    }
+    card OperationDefinition #Purple {
+    }
+    card SearchParameter #Purple {
+    }
+  }
 
-package "Volume 3: Content" as v3 #IMPLEMENTATION {
-package Content-1 #YellowGreen {
-}
-}
+  package "Volume 3: Content" as v3 #IMPLEMENTATION {
+    package Content-1 #YellowGreen {
+      card encoding {
 
-package "Volume 2: Transactions" as v2 #IMPLEMENTATION {
-package Transaction-1 #IMPLEMENTATION {
-package message-1 {
-card "Trigger Events" #YellowGreen {
-}
-card "Message Encoding" #YellowGreen {
-}
-card "Expected Actions" #YellowGreen {
-}
-}
-}
-}
+      }
+      card metadata {
+      }
+    }
+  }
 
-package "Volume 4: National Extensions" as v4 {
-Package USA #DeepSkyBlue {
-}
-package France #Tomato {
-}
-}
+  package "Volume 2: Transactions" as v2 #IMPLEMENTATION {
+    package Transaction-1 #IMPLEMENTATION {
+      package message-1 {
+        card "Trigger Events" #YellowGreen {
+        }
+        card "Message Encoding" #YellowGreen {
+        }
+        card "Expected Actions" #YellowGreen {
+        }
+      }
+    }
+  } 
 
-package "Volume 1: Use-Case Definition" as v1 #APPLICATION {
+  package "Volume 4: National Extensions" as v4 {
+    Package USA #DeepSkyBlue {
+    }
+    package France #Tomato {
+    }
+  }
 
-  card "Grouping Behavior" as gb  #BUSINESS{
-}
-  card "Security Considerations" as sc #BUSINESS{
-}
-  card Options  #BUSINESS{
-}
-  card Transactions  #BUSINESS{
-}
-  card Actors  #BUSINESS{
-}
-}
+  package "Volume 1: Use-Case Analysis" as v1 #APPLICATION {
+    card "Grouping Behavior" as gb  #BUSINESS{
+    }
+    card "Security Considerations" as sc #BUSINESS{
+    }
+    card Options  #BUSINESS{
+    }
+    card Transactions  #BUSINESS{
+    }
+    card Actors  #BUSINESS{
+    }
+    card Use-cases #BUSINESS{
+    }
+  }
 
 top to bottom direction
 v1 - -[hidden]> v2
