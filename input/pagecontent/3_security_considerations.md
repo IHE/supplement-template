@@ -1,39 +1,34 @@
-<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
+See ITI TF-2x: [Appendix Z.8 “Mobile Security Considerations”](appendix_z.html#FHIRsecurity)
 
-<!-- Material initially from RFC 3552           Security Considerations Guidelines          July 2003 -->
-<b>The following is instructions to the editor and not to be included in an publication</b> 
-<p>This section should address downstream design considerations, specifically for: Privacy, Security, and Safety. These might need to be individual header sections if they are significant or need to be referenced.</p>
-<p>
-The editor needs to be famular with Security and Privacy fundimentals. 
-General <a href="{{site.data.fhir.path}}secpriv-module.html">Security and Privacy guidance</a> is provided in the <a href="{{site.data.fhir.path}}index.html">FHIR Specification <img src="external.png" style="text-align: baseline"/></a>. 
-The FHIR core specificaiton should be leveraged where possible to inform the reader of your specification.
-</p>
-<p>
-IHE FHIR based profiles should reference the <a href="http://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_Suppl_Appx-Z.pdf">ITI Appendix Z.8 Mobile Security and Privacy Considerations</a> base when appropriate.
-</p>
-<p>
-IHE Document Content profiles can reference the security and privacy provided by the Document Sharing infrastructure grouped.</p>
-<p>
+The following is instructions to the editor and this text is not to be included in a publication. 
+The material initially from [RFC 3552 "Security Considerations Guidelines" July 2003](https://tools.ietf.org/html/rfc3552).
+
+This section should address downstream design considerations, specifically for: Privacy, Security, and Safety. These might need to be individual header sections if they are significant or need to be referenced.
+
+The editor needs to understand Security and Privacy fundamentals. 
+General [Security and Privacy guidance](http://hl7.org/fhir/secpriv-module.html) is provided in the FHIR Specification. 
+The FHIR core specification should be leveraged where possible to inform the reader of your specification.
+
+IHE FHIR based profiles should reference the [ITI Appendix Z](https://profiles.ihe.net/ITI/TF/Volume2/ch-Z.html) section 8 Mobile Security and Privacy Considerations base when appropriate.
+
+IHE Document Content profiles can reference the security and privacy provided by the Document Sharing infrastructure as directly grouped or possibly to be grouped.
+
    While it is not a requirement that any given specification or system be
    immune to all forms of attack, it is still necessary for authors of specifications to
    consider as many forms as possible.  Part of the purpose of the
    Security and Privacy Considerations section is to explain what attacks have been 
    considered and what countermeasures can be applied to defend against them.
    
-</p><p>
    There should be a clear description of the kinds of threats on the
    described specification.  This should be approached as an
    effort to perform "due diligence" in describing all known or
    foreseeable risks and threats to potential implementers and users.
-</p><p>
-   Authors MUST describe:
-</p>
-<ul>
-<li>which attacks have been considered and addressed in the specification</li>
-<li>which attacks have been considered but not addressed in the specification</li>
-<li>what could be done in system design, system deployment, or user training</li>
-</ul>
-<p>
+
+Authors MUST describe:
+* which attacks have been considered and addressed in the specification
+* which attacks have been considered but not addressed in the specification
+* what could be done in system design, system deployment, or user training
+
 
    At least the following forms of attack MUST be considered:
    eavesdropping, replay, message insertion, deletion, modification, and
@@ -46,13 +41,11 @@ IHE Document Content profiles can reference the security and privacy provided by
    the cryptographic protection is susceptible.  Data which should be
    held secret (keying material, random seeds, etc.) should be clearly
    labeled.
-</p><p>
 
    If the specification involves authentication, particularly user-host
    authentication, the security of the authentication method MUST be
    clearly specified.  That is, authors MUST document the assumptions
    that the security of this authentication method is predicated upon.
-</p><p>
 
    The threat environment addressed by the Security and Privacy Considerations
    section MUST at a minimum include deployment across the global
@@ -65,7 +58,6 @@ IHE Document Content profiles can reference the security and privacy provided by
    use of a technology or protocol in a particular environment.
    Nonetheless, the security issues of broader deployment should be
    discussed in the document.
-</p><p>
 
    There should be a clear description of the residual risk to the user
    or operator of that specification after threat mitigation has been
@@ -82,14 +74,11 @@ IHE Document Content profiles can reference the security and privacy provided by
    attack.  However, in cases (such as a certificate authority) where
    compromise of a single system could lead to widespread compromises,
    it is appropriate to consider systems and physical security as well.
-</p><p>
 
    There should also be some discussion of potential security risks
    arising from potential misapplications of the specification or technology
    described in the specification.  
-  </p>
   
-  <!-- specific parts for IHE -->
-  <p>This section also include specific considerations regarding Digital Signatures, Provenance, Audit Logging, and De-Identification. </p>
-  <p> Where audit logging is specified, a StructureDefinition profie(s) should be included, and Examples of those logs might be included.</p>
-</div>
+This section also include specific considerations regarding Digital Signatures, Provenance, Audit Logging, and De-Identification.
+
+Where audit logging is specified, a StructureDefinition profile(s) should be included, and Examples of those logs might be included.

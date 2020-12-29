@@ -1,0 +1,8 @@
+@startuml
+' This is a PlantUML comment
+' this style of diagram is not yet supported by IG Build, so you must manually extract 
+' and put the PNG into the image folder and check it in.
+agent "Client" as Client
+agent "Server" as Server
+Client -- Server : "go [domain-Y] ↓"
+@enduml

@@ -1,72 +1,42 @@
 <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li><a href="index.html">IG Home</a></li>
   <li><a href="toc.html">Table of Contents</a></li>
-  <li class="dropdown"> <a data-toggle="dropdown" href="#" class="dropdown-toggle">Supplement Template<b class="caret"></b></a> 
-    <ul class="dropdown-menu">
-	  <li><a href="#">Overview</a></li>
-	  <li><a href="#">Actors and Transactions</a></li>
-	  <li><a href="#">Profile Options</a></li>
-	  <li><a href="#">Security Considerations</a></li>
-    </ul>
-</li>
-
-
-  <li class="dropdown"> <a data-toggle="dropdown" href="#" class="usecases">Use Cases and Data models<b class="caret"></b></a> 
-    <ul class="dropdown-menu">
-        <li><a href="#">Background</a></li>
-        <li><a href="#">Data Mode Overview</a></li>
-        <li><a href="#">Use Case Overview</a></li>
-		<li><a href="#">Dependencies</a></li>
-		<li><a href="#">Regulatory aspects</a></li>
-    </ul>
-
-	</li>
-	
-<li class="dropdown"> <a data-toggle="dropdown" href="#" class="transactions">Transactions<b class="caret"></b></a>
-    <ul class="dropdown-menu">
-        <li><a href="#">Actor Overview</a></li>
-        <li><a href="#">[IHE-1] Transaction 1</a></li>
-        <li><a href="#">[IHE-2] Transaction 2</a></li>		
-        <li><a href="#">Option overview</a></li>
-		<li><a href="#">Security Considerations</a></li>
-		<li><a href="#">Cross Profile Considerations</a></li>
-    </ul>
-  </li>
-
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Content Profiles<b class="caret">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">FooBar Background<b class="caret">
       </b>
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="#">Questionnaire Resource</a>
+        <a href="1_overview.html">Overview</a>
       </li>
       <li>
-        <a href="#">Questionnaire Response Resource</a>
+        <a href="2_actors_and_transactions.html">Actors and Transactions</a>
       </li>
       <li>
-        <a href="#">Launch URL Extension</a>
+        <a href="3_security_considerations.html">Security Considerations</a>
       </li>
       <li>
-        <a href="#">Contained Questionnaire Extension</a>
+        <a href="4_grouping.html">Cross Profile Considerations</a>
+      </li>
+      <li>
+        <a href="5_testplan.html">Test Plan Considerations</a>
+      </li>
+      <li>
+        <a href="a_issues.html">Open and Closed Issues</a>
       </li>
     </ul>
   </li>
-
-
   <li class="dropdown">
-    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Terminology<b class="caret">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Transactions<b class="caret">
       </b>
     </a>
     <ul class="dropdown-menu">
+      <li>
+        <a href="domain-Y.html">go [domain-Y]</a>
+      </li>
     </ul>
   </li>
-
-
-
-
   <li><a href="artifacts.html">Artifact Index</a></li>
-
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">Support<b class="caret">
       </b>
@@ -74,9 +44,6 @@
     <ul class="dropdown-menu">
       <li>
         <a target="_blank" href="{{site.data.fhir.path}}index.html">FHIR Spec <img src="external.png" style="text-align: baseline"/></a>
-      </li>
-      <li>
-        <a href="downloads.html">Downloads</a>
       </li>
     </ul>
   </li>

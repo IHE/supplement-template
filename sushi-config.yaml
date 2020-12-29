@@ -1,0 +1,7 @@
+id: fooBar.ihe.net
+canonical: https://profiles.ihe.net/fooBar
+name: FooBar
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+FSHOnly: true

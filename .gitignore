@@ -2,4 +2,5 @@
 temp
 template
 output
-input-cache/
+input-cache
+fsh-generated

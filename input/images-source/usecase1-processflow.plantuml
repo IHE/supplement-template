@@ -1,0 +1,11 @@
+@startuml
+hide footbox
+participant "Client" as Client
+participant "Server" as Server
+activate "Client"
+"Client" -> "Server" : 1. Go Query [domain-Y]
+activate "Server"
+"Server" --> "Client" : 2. Go Response [domain-Y]
+deactivate "Client"
+deactivate "Server"
+@enduml
