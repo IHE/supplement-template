@@ -1,5 +1,7 @@
 # Status
-This repository is under-construction. Please don't use it yet... 
+This repository is under-construction. Please try using it. If you have questions, contact John Moehrke. 
+
+Note that a copy of the normal word DOCX supplement template is available here as [suppl_template.md](./suppl_template.md)
 
 # Overall organization
 ![](classnotes/Organization.svg)
