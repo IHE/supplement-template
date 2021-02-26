@@ -4,7 +4,7 @@ This repository is under-construction. Please try using it. If you have question
 Note that a copy of the normal word DOCX supplement template is available here as [suppl_template.md](./suppl_template.md)
 
 # Overall organization
-![](classnotes/Organization.svg)
+![](wiki/SupplementOrganization.svg)
 
 ## Volume 1: Use-Case Analysis
 This section contains the Use-Case Analysis and breakdown into Actors, Transactions, Options, and Grouping 
