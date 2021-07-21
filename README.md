@@ -95,4 +95,7 @@ HL7 also has guidance and a sample-ig that may be useful for readers.
 * author guidance - http://build.fhir.org/ig/FHIR/ig-guidance/branches/master/index.html
   * source for this guidance at https://github.com/FHIR/ig-guidance
 * sample-ig - https://github.com/FHIR/sample-ig
-
+* HL7 guidance on structureDefinition profiling https://www.hl7.org/fhir/profiling.html#using
+* helpful article on slicing https://simplifier.net/guide/profilingacademy/Slicing
+* ShortHand (sushi, fsh) http://hl7.org/fhir/uv/shorthand/2020May/sushi.html
+  
