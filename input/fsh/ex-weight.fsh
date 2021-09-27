@@ -22,9 +22,9 @@ Description:      "holding typical stone values."
 * code.coding = LOINC#29463-7
 * code.coding[1] = LOINC#3141-9
 * code.coding[2] = SCT#27113001
-* code.coding[3] = http://acme.org/devices/clinical-codes#body-weight "Body Weight"
+//* code.coding[3] = http://acme.org/devices/clinical-codes#body-weight "Body Weight"
 * subject = Reference(Patient/ex-patient)
-* encounter = Reference(Encounter/ex-encounter)
+* encounter = Reference(Encounter/example)
 * effectiveDateTime = 2016-03-28
 * valueQuantity = 20 '[stone_av]' 
 * note.text = "a bit heavy, about 280 lbs"

@@ -2,7 +2,8 @@ Profile:        FooBarbloodPressure
 Parent:         Observation
 Id:             IHE.FooBar.bloodPressure
 Title:          "IHE FooBar Blood Pressure Observation"
-Description:    "A profile on the Observation that declares how FooBar will Create/Update blood pressure measurements.
+Description:    """
+A profile on the Observation that declares how FooBar will Create/Update blood pressure measurements.
 * must have vital-signs category
 * must have LOINC#55284-4 code AND LOINC#8716-3
 * must have effectiveDateTime
@@ -15,7 +16,7 @@ Description:    "A profile on the Observation that declares how FooBar will Crea
 * must point at the patient
 * may have a note (comment)
 * once created will or might have an id, versionId, lastUpdated, text, and identifier
-"
+"""
 * ^version = "0.1.0"
 * ^date = "2020-11-23"
 * category 1..1

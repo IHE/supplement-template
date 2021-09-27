@@ -10,8 +10,8 @@ The Client [ITI-Y] transaction passes a go Request from a Client to a Server.
 
 |Actor | Role |
 |-------------------+--------------------------|
-| [Client](2_actors_and_transactions.html#client)    | Sends query to Server |
-| [Server](2_actors_and_transactions.html#server) | Receives the query and responds |
+| [Client](volume-1.html#client)    | Sends query to Server |
+| [Server](volume-1.html#server) | Receives the query and responds |
 
 ### Referenced Standards
 
@@ -22,8 +22,7 @@ The Client [ITI-Y] transaction passes a go Request from a Client to a Server.
 <div>
 {%include domain-Y-seq.svg%}
 </div>
-
-<div style="clear: left"/>
+<br clear="all">
 
 **Figure: Go Interactions**
 
@@ -61,12 +60,12 @@ This message uses the HTTP GET method on the target Server endpoint to convey th
 ### CapabilityStatement Resource
 
 Server implementing this transaction shall provide a CapabilityStatement Resource as described in ITI TF-2x: Appendix Z.3 indicating the transaction has been implemented. 
-* Requirements CapabilityStatement for [Client](IHE.FooBar.Client.html)
-* Requirements CapabilityStatement for [Client](IHE.FooBar.Server.html)
+* Requirements CapabilityStatement for [Client](CapabilityStatement-IHE.FooBar.client.html)
+* Requirements CapabilityStatement for [Server](CapabilityStatement-IHE.FooBar.server.html)
 
 ### Security Considerations
 
-See [MHD Security Considerations](3_security_considerations.html)
+See [MHD Security Considerations](volume-1.html#security-considerations)
 
 #### Security Audit Considerations
 
