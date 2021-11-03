@@ -1,4 +1,3 @@
-<div />
 
 # 1:XX Profile name
 
@@ -89,7 +88,7 @@ This transaction is used to **do things**
 
 For more details see the detailed [transaction description](domain-YY.html)
 
-## XX.2 Actor Options <a name="actor-options"> </a>
+## XX.2 FooBar Actor Options <a name="actor-options"> </a>
 
 Options that may be selected for each actor in this implementation guide, are listed in Table 3.2-1 below. Dependencies 
 between options when applicable are specified in notes.
@@ -105,7 +104,7 @@ between options when applicable are specified in notes.
 
 **TODO: describe this option and the Volume 1 requirements for this option
 
-## XX.3 Required Actor Groupings <a name="required-groupings"> </a>
+## XX.3 FooBar Required Actor Groupings <a name="required-groupings"> </a>
 
 *Describe any requirements for actors in this profile to be grouped
 with other actors.*
@@ -360,7 +359,7 @@ Guidance on using the “Grouping Condition” column:
 </table>
 
 
-## XX.4 Overview <a name="overview"> </a>
+## XX.4 FooBar Overview <a name="overview"> </a>
 
 This section shows how the transactions/content modules of the profile
 are combined to address the use cases.
@@ -448,7 +447,7 @@ Very briefly (typically one sentence) describe the state of the
 clinical scenario after this content module has been created including
 examples of potential next steps.
 
-## XX.5 Security Considerations <a name="security-considerations"> </a>
+## XX.5 FooBar Security Considerations <a name="security-considerations"> </a>
 
 See ITI TF-2x: [Appendix Z.8 “Mobile Security Considerations”](https://profiles.ihe.net/ITI/TF/Volume2/ch-Z.html#z.8-mobile-security-considerations)
 
@@ -535,7 +534,7 @@ This section also include specific considerations regarding Digital Signatures, 
 
 Where audit logging is specified, a StructureDefinition profile(s) should be included, and Examples of those logs might be included.
 
-## XX.6 Cross-Profile Considerations <a name="grouping"> </a>
+## XX.6 FooBar Cross-Profile Considerations <a name="other-grouping"> </a>
 
 This section is informative, not normative. It is intended to put
 this profile in context with other profiles. Any required groupings
