@@ -1,5 +1,5 @@
 {
- "package-id" : "ihe.profile.fhir",
+ "package-id" : "ihe.domain.profile",
  "title" : "Your User Friendly Name for MyIG Here", 
  "canonical" : "http://profiles.ihe.net/Domain/Profile", 
  "introduction" : "The introduction that should appear in the FHIR IG registry",

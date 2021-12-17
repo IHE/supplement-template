@@ -1,10 +1,13 @@
 # sushi-config.yaml is documented https://fshschool.org/docs/sushi/configuration/
 # ───────────────────────────────────────────────────
-id: IHE.Domain.Profile
+# the id should be lowercase made up of "ihe." + {domain acronym} + "." + {profile acronym/short-name}
+# e.g. ihe.iti.mhds, or ihe.iti.basicaudit
+id: ihe.domain.profile
 canonical: http://profiles.ihe.net/Domain/Profile
 version: 0.1.0
 name: IHE_Domain_Profile
 title: "spelled out name of the IHE Profile"
+description: put the short description of the profile here. it should explain what problem is being solved
 status: active
 publisher:
   - name: IHE IT Infrastructure Technical Committee
@@ -15,7 +18,6 @@ contact:
     telecom:
       - system: email
         value: iti@ihe.net
-description: put the short description of the profile here. it should explain what problem is being solved
 license:  CC-BY-SA-4.0
 fhirVersion: 4.0.1
 jurisdiction: 'http://unstats.un.org/unsd/methods/m49/m49.htm#001'
