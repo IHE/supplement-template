@@ -3,11 +3,14 @@
 # the id should be lowercase made up of "ihe." + {domain acronym} + "." + {profile acronym/short-name}
 # e.g. ihe.iti.mhds, or ihe.iti.basicaudit
 id: ihe.domain.profile
-canonical: http://profiles.ihe.net/Domain/Profile
+canonical: https://profiles.ihe.net/Domain/Profile
 version: 0.1.0
 name: IHE_Domain_Profile
 title: "spelled out name of the IHE Profile"
 description: put the short description of the profile here. it should explain what problem is being solved
+releaseLabel: ci-build
+#releaseLabel: Trial-Implementation
+#date: 2022-01-02
 status: active
 publisher:
   - name: IHE IT Infrastructure Technical Committee
@@ -23,7 +26,6 @@ fhirVersion: 4.0.1
 jurisdiction: 'http://unstats.un.org/unsd/methods/m49/m49.htm#001'
 copyright: IHE http://www.ihe.net/Governance/#Intellectual_Property
 copyrightYear: 2021+
-releaseLabel: ci-build
 
 
 parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
