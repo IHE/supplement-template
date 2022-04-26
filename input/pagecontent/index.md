@@ -3,7 +3,12 @@
 
 **TODO: write your executive overview here. usually one paragraph explanation of what this implementation guide solves.**
 
-[Open and Closed Issues](issues.html)
+<div markdown="1" class="stu-note">
+
+| [Significant Changes, Open, and Closed Issues](issues.html) |
+{: .grid}
+
+</div>
 
 ### Organization of This Guide
 This guide is organized into four main sections:
