@@ -1,7 +1,7 @@
 
-**This Implementation Guide template includes skeleton pages for each part of an IHE supplement. The instructions for how to fill out those sections can be found in the included [Supplement Template](https://github.com/IHE/supplement-template/blob/master/suppl_template.md). This supplement template should not be included in your github repo or publication. It is included here for easy reference.**
+**This Implementation Guide template includes skeleton pages for each part of an IHE supplement. The instructions for how to fill out these sections can be found in the included [Supplement Template](https://github.com/IHE/supplement-template/blob/master/suppl_template.md). This supplement template should not be included in your github repo or publication. It is included here for easy reference.**
 
-**TODO: write your executive overview here. usually one paragraph explanation of what this implementation guide solves.**
+**TODO: Write your executive overview here. Usually a one paragraph explanation of what problem this implementation guide solves.**
 
 <div markdown="1" class="stu-note">
 
@@ -11,9 +11,10 @@
 </div>
 
 ### Organization of This Guide
-This guide is organized into four main sections:
+This guide is organized into the following sections:
 
-1. Volume I: [Overview](volume-1.html)
+1. Volume 1:
+   1. [Introduction](volume-1.html)
    1. [Actors and Transactions](volume-1.html#actors-and-transactions)
    1. [Actor Options](volume-1.html#actor-options)
    1. [Actor Required Groupings](volume-1.html#required-groupings)
@@ -21,25 +22,26 @@ This guide is organized into four main sections:
    1. [Security Considerations](volume-1.html#security-considerations)
    1. [Cross Profile Considerations](volume-1.html#other-grouping)
 
-2. Volume II: Transaction Detail
+2. Volume 2: Transaction Detail
    1. [FooBar do \[domain-YY\]](domain-YY.html)
 
-3. Volume III: Metadata and Content
+3. Volume 3: Metadata and Content
   - **TODO: point to your content profiles if you have them**
 
-4. National Extensions
+4. Volume 4: National Extensions
   - **TODO: point at your national extensions if you have them**
 
-5. Appendix
+5. Test Plan
   - [Test Plan](testplan.html)
     - **TODO: point to your appendix if you have them**
+6. Other
   - [Changes to Other Profiles](other.html)
-    - **TODO: Actor and Transaction definitions.**
+    - **TODO: Actor and transaction definitions, new glossary terms.**
     - **TODO: Any changes needed to other specifications.**
 
 
-See also the [table of contents](toc.html) and
-the index of [artifacts](artifacts.html) defined as part of this implementation guide.
+See also the [Table of Contents](toc.html) and
+the index of [Artifacts](artifacts.html) defined as part of this implementation guide.
 
 ### Conformance Expectations
 
@@ -57,7 +59,7 @@ Note that sometimes mustSupport will appear on elements with a minimal cardinali
 
 You can also download:
 
-* [this entire guide](full-ig.zip)
+* [this entire guide](full-ig.zip),
 * the definition resources in [json](definitions.json.zip), [xml](definitions.xml.zip), [ttl](definitions.ttl.zip), or [csv](csvs.zip) format, or
 * the example resources in [json](examples.json.zip), [xml](examples.xml.zip) or [ttl](examples.ttl.zip) format.
 
