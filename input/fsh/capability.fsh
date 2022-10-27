@@ -6,6 +6,7 @@ Usage: #definition
 * title = "IHE FooBar client"
 * status = #active
 * experimental = false
+* date = "2022-10-27"
 * description = "CapabilityStatement for Client Actor in the IHE IT Infrastructure Technical Framework Supplement IHE FooBar. See https://profiles.ihe.net/ITI/TF/Volume1/ch-38.html. The IHE Profile text is Normative, this conformance resource is Informative."
 * kind = #requirements
 * fhirVersion = #4.0.1
@@ -80,6 +81,7 @@ Usage: #definition
 * title = "IHE FooBar Server"
 * status = #active
 * experimental = false
+* date = "2022-10-27"
 * description = "CapabilityStatement for Server Actor in the IHE IT Infrastructure Technical Framework Supplement IHE FooBar. See https://profiles.ihe.net/ITI/TF/Volume1/ch-38.html. The IHE Profile text is Normative, this conformance resource is Informative."
 * kind = #requirements
 * fhirVersion = #4.0.1
