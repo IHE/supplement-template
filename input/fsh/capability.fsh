@@ -1,149 +1,185 @@
 Instance: IHE.FooBar.client
 InstanceOf: CapabilityStatement
+Title: "FooBar Actor"
 Usage: #definition
+* description = """
+CapabilityStatement for Client Actor 
+
+Explain
+- blah
+- blah
+"""
 * url = "http://ihe.net/fhir/CapabilityStatement/capabilitystatement-IHE.FooBar.client"
 * name = "IHE_FooBar_client"
 * title = "IHE FooBar client"
 * status = #active
 * experimental = false
 * date = "2022-10-27"
-* description = "CapabilityStatement for Client Actor in the IHE IT Infrastructure Technical Framework Supplement IHE FooBar. See https://profiles.ihe.net/ITI/TF/Volume1/ch-38.html. The IHE Profile text is Normative, this conformance resource is Informative."
 * kind = #requirements
 * fhirVersion = #4.0.1
-* format[0] = #application/fhir+xml
+* format[+] = #application/fhir+xml
 * format[+] = #application/fhir+json
-* rest.mode = #client
-* rest.documentation = "FooBar client will query for Patient resources matching a sub-set of the FHIR core Patient resource query parameters"
-* rest.security.cors = false
-* rest.security.description = "None mandated by IHE, encouraged IHE-IUA or SMART-on-FHIR"
-* rest.resource.type = #Patient
-* rest.resource.interaction[0].code = #read
-* rest.resource.interaction[+].code = #search-type
-* rest.resource.searchParam[0].name = "_id"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-_id"
-* rest.resource.searchParam[=].type = #token
-* rest.resource.searchParam[=].documentation = "Logical id of this artifact"
-* rest.resource.searchParam[+].name = "active"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-active"
-* rest.resource.searchParam[=].type = #token
-* rest.resource.searchParam[=].documentation = "Whether the patient record is active"
-* rest.resource.searchParam[+].name = "address-city"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-address-city"
-* rest.resource.searchParam[=].type = #string
-* rest.resource.searchParam[=].documentation = "A city specified in an address"
-* rest.resource.searchParam[+].name = "address-country"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-address-country"
-* rest.resource.searchParam[=].type = #string
-* rest.resource.searchParam[=].documentation = "A country specified in an address"
-* rest.resource.searchParam[+].name = "address-postalcode"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-address-postalcode"
-* rest.resource.searchParam[=].type = #string
-* rest.resource.searchParam[=].documentation = "A postalCode specified in an address"
-* rest.resource.searchParam[+].name = "address-state"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-address-state"
-* rest.resource.searchParam[=].type = #string
-* rest.resource.searchParam[=].documentation = "A state specified in an address"
-* rest.resource.searchParam[+].name = "birthdate"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-birthdate"
-* rest.resource.searchParam[=].type = #date
-* rest.resource.searchParam[=].documentation = "The patient's date of birth"
-* rest.resource.searchParam[+].name = "family"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-family"
-* rest.resource.searchParam[=].type = #string
-* rest.resource.searchParam[=].documentation = "A portion of the family name of the patient"
-* rest.resource.searchParam[+].name = "gender"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-gender"
-* rest.resource.searchParam[=].type = #token
-* rest.resource.searchParam[=].documentation = "Gender of the patient"
-* rest.resource.searchParam[+].name = "given"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-given"
-* rest.resource.searchParam[=].type = #string
-* rest.resource.searchParam[=].documentation = "A portion of the given name of the patient"
-* rest.resource.searchParam[+].name = "identifier"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-identifier"
-* rest.resource.searchParam[=].type = #token
-* rest.resource.searchParam[=].documentation = "A patient identifier"
-* rest.resource.searchParam[+].name = "telecom"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-telecom"
-* rest.resource.searchParam[=].type = #token
-* rest.resource.searchParam[=].documentation = "The value in any kind of telecom details of the patient"
-* rest.resource.searchParam[+].name = "_lastUpdated"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-_lastUpdated"
-* rest.resource.searchParam[=].type = #date
-* rest.resource.searchParam[=].documentation = "When the resource version last changed"
-* rest.interaction.code = #search-system
+* rest
+  * mode = #client
+  * documentation = "FooBar Client provides capability to blah blah."
+  * security
+    * description = "Recommend [ATNA](https://profiles.ihe.net/ITI/TF/Volume1/ch-9.html), encouraged [IHE-IUA](https://profiles.ihe.net/ITI/IUA/index.html) or [SMART-app-launch](http://www.hl7.org/fhir/smart-app-launch/)"
+  * resource[+]
+    * type = #Patient
+    * documentation = """
+FooBar transaction [ITI-00]
+"""
+    * interaction[+].code = #read
+    * interaction[+].code = #search-type
+    * searchParam[+]
+      * name = "_lastUpdated"
+      * type = #date
+      * documentation = "When the resource version last changed"
+    * searchParam[+]
+      * name = "_id"
+      * type = #token
+      * documentation = "Logical id of this artifact"
+    * searchParam[+]
+      * name = "active"
+      * type = #token
+      * documentation = "Whether the patient record is active"
+    * searchParam[+]
+      * name = "family"
+      * type = #string
+      * documentation = "A portion of the family name of the patient"
+    * searchParam[+]
+      * name = "given"
+      * type = #string
+      * documentation = "A portion of the given name of the patient"
+    * searchParam[+]
+      * name = "identifier"
+      * type = #token
+      * documentation = "A patient identifier"
+    * searchParam[+]
+      * name = "telecom"
+      * type = #token
+      * documentation = "The value in any kind of telecom details of the patient"
+    * searchParam[+]
+      * name = "birthdate"
+      * type = #date
+      * documentation = "The patient's date of birth"
+    * searchParam[+]
+      * name = "address-city"
+      * type = #string
+      * documentation = "A city specified in an address"
+    * searchParam[+]
+      * name = "address-country"
+      * type = #string
+      * documentation = "A country specified in an address"
+    * searchParam[+]
+      * name = "address-postalcode"
+      * type = #string
+      * documentation = "A postalCode specified in an address"
+    * searchParam[+]
+      * name = "address-state"
+      * type = #string
+      * documentation = "A state specified in an address"
+    * searchParam[+]
+      * name = "gender"
+      * type = #token
+      * documentation = "Gender of the patient"
+    * searchParam[+]
+      * name = "mothersMaidenName"
+      * definition = "http://hl7.org/fhir/SearchParameter/patient-extensions-Patient-mothersMaidenName"
+      * type = #string
+      * documentation = "Mother's maiden (unmarried) name, commonly collected to help verify patient identity."
+  * interaction.code = #search-system
+
 
 Instance: IHE.FooBar.server
 InstanceOf: CapabilityStatement
+Title: "FooBar Server Actor"
 Usage: #definition
+* description = """
+CapabilityStatement for Server Actor.
+
+Explain
+- blah
+- blah
+"""
 * url = "http://ihe.net/fhir/CapabilityStatement/capabilitystatement-IHE.FooBar.server"
 * name = "IHE_FooBar_supplier"
 * title = "IHE FooBar Server"
 * status = #active
 * experimental = false
 * date = "2022-10-27"
-* description = "CapabilityStatement for Server Actor in the IHE IT Infrastructure Technical Framework Supplement IHE FooBar. See https://profiles.ihe.net/ITI/TF/Volume1/ch-38.html. The IHE Profile text is Normative, this conformance resource is Informative."
 * kind = #requirements
 * fhirVersion = #4.0.1
-* format[0] = #application/fhir+xml
+* format[+] = #application/fhir+xml
 * format[+] = #application/fhir+json
-* rest.mode = #server
-* rest.documentation = "FooBar server provides capability to query for Patient resources matching a sub-set of the FHIR core Patient resource query parameters"
-* rest.security.cors = false
-* rest.security.description = "None mandated by IHE, encouraged IHE-IUA or SMART-on-FHIR"
-* rest.resource.type = #Patient
-* rest.resource.interaction[0].code = #read
-* rest.resource.interaction[+].code = #search-type
-* rest.resource.searchParam[0].name = "_id"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-_id"
-* rest.resource.searchParam[=].type = #token
-* rest.resource.searchParam[=].documentation = "Logical id of this artifact"
-* rest.resource.searchParam[+].name = "active"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-active"
-* rest.resource.searchParam[=].type = #token
-* rest.resource.searchParam[=].documentation = "Whether the patient record is active"
-* rest.resource.searchParam[+].name = "address-city"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-address-city"
-* rest.resource.searchParam[=].type = #string
-* rest.resource.searchParam[=].documentation = "A city specified in an address"
-* rest.resource.searchParam[+].name = "address-country"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-address-country"
-* rest.resource.searchParam[=].type = #string
-* rest.resource.searchParam[=].documentation = "A country specified in an address"
-* rest.resource.searchParam[+].name = "address-postalcode"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-address-postalcode"
-* rest.resource.searchParam[=].type = #string
-* rest.resource.searchParam[=].documentation = "A postalCode specified in an address"
-* rest.resource.searchParam[+].name = "address-state"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-address-state"
-* rest.resource.searchParam[=].type = #string
-* rest.resource.searchParam[=].documentation = "A state specified in an address"
-* rest.resource.searchParam[+].name = "birthdate"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-birthdate"
-* rest.resource.searchParam[=].type = #date
-* rest.resource.searchParam[=].documentation = "The patient's date of birth"
-* rest.resource.searchParam[+].name = "family"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-family"
-* rest.resource.searchParam[=].type = #string
-* rest.resource.searchParam[=].documentation = "A portion of the family name of the patient"
-* rest.resource.searchParam[+].name = "gender"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-gender"
-* rest.resource.searchParam[=].type = #token
-* rest.resource.searchParam[=].documentation = "Gender of the patient"
-* rest.resource.searchParam[+].name = "given"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-given"
-* rest.resource.searchParam[=].type = #string
-* rest.resource.searchParam[=].documentation = "A portion of the given name of the patient"
-* rest.resource.searchParam[+].name = "identifier"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-identifier"
-* rest.resource.searchParam[=].type = #token
-* rest.resource.searchParam[=].documentation = "A patient identifier"
-* rest.resource.searchParam[+].name = "telecom"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-telecom"
-* rest.resource.searchParam[=].type = #token
-* rest.resource.searchParam[=].documentation = "The value in any kind of telecom details of the patient"
-* rest.resource.searchParam[+].name = "_lastUpdated"
-//* rest.resource.searchParam[=].definition = "http://hl7.org/fhir/SearchParameter/Patient-_lastUpdated"
-* rest.resource.searchParam[=].type = #date
-* rest.resource.searchParam[=].documentation = "When the resource version last changed"
-* rest.interaction.code = #search-system
+* rest
+  * mode = #server
+  * documentation = "FooBar Client provides capability to blah blah."
+  * security
+    * description = "Recommend [ATNA](https://profiles.ihe.net/ITI/TF/Volume1/ch-9.html), encouraged [IHE-IUA](https://profiles.ihe.net/ITI/IUA/index.html) or [SMART-app-launch](http://www.hl7.org/fhir/smart-app-launch/)"
+  * resource[+]
+    * type = #Patient
+    * documentation = """
+FooBar transaction [ITI-00]
+"""
+    * interaction[+].code = #read
+    * interaction[+].code = #search-type
+    * searchParam[+]
+      * name = "_lastUpdated"
+      * type = #date
+      * documentation = "When the resource version last changed"
+    * searchParam[+]
+      * name = "_id"
+      * type = #token
+      * documentation = "Logical id of this artifact"
+    * searchParam[+]
+      * name = "active"
+      * type = #token
+      * documentation = "Whether the patient record is active"
+    * searchParam[+]
+      * name = "family"
+      * type = #string
+      * documentation = "A portion of the family name of the patient"
+    * searchParam[+]
+      * name = "given"
+      * type = #string
+      * documentation = "A portion of the given name of the patient"
+    * searchParam[+]
+      * name = "identifier"
+      * type = #token
+      * documentation = "A patient identifier"
+    * searchParam[+]
+      * name = "telecom"
+      * type = #token
+      * documentation = "The value in any kind of telecom details of the patient"
+    * searchParam[+]
+      * name = "birthdate"
+      * type = #date
+      * documentation = "The patient's date of birth"
+    * searchParam[+]
+      * name = "address-city"
+      * type = #string
+      * documentation = "A city specified in an address"
+    * searchParam[+]
+      * name = "address-country"
+      * type = #string
+      * documentation = "A country specified in an address"
+    * searchParam[+]
+      * name = "address-postalcode"
+      * type = #string
+      * documentation = "A postalCode specified in an address"
+    * searchParam[+]
+      * name = "address-state"
+      * type = #string
+      * documentation = "A state specified in an address"
+    * searchParam[+]
+      * name = "gender"
+      * type = #token
+      * documentation = "Gender of the patient"
+    * searchParam[+]
+      * name = "mothersMaidenName"
+      * definition = "http://hl7.org/fhir/SearchParameter/patient-extensions-Patient-mothersMaidenName"
+      * type = #string
+      * documentation = "Mother's maiden (unmarried) name, commonly collected to help verify patient identity."
+  * interaction.code = #search-system
+
