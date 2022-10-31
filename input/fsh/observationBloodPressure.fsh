@@ -107,6 +107,7 @@ ValueSet: IheFooBarBloodPressurePositions
 Id: ihe-foobar-blood-pressure-positions
 Title: "The methods of measurement for blood pressure"
 Description: "These are the loinc body positions that IHE FooBar supports on blood pressure."
+* ^experimental = false
 * LOINC#69000-8 "Heart rate - sitting"
 * LOINC#69001-6 "Heart rate - standing"
 * LOINC#68999-2 "Heart rate - supine"

@@ -9,7 +9,7 @@ Explain
 - blah
 - blah
 """
-* url = "http://ihe.net/fhir/CapabilityStatement/capabilitystatement-IHE.FooBar.client"
+* url = "https://profiles.ihe.net/Domain/Profile/CapabilityStatement/IHE.FooBar.client"
 * name = "IHE_FooBar_client"
 * title = "IHE FooBar client"
 * status = #active
@@ -102,7 +102,7 @@ Explain
 - blah
 - blah
 """
-* url = "http://ihe.net/fhir/CapabilityStatement/capabilitystatement-IHE.FooBar.server"
+* url = "https://profiles.ihe.net/Domain/Profile/CapabilityStatement/IHE.FooBar.server"
 * name = "IHE_FooBar_supplier"
 * title = "IHE FooBar Server"
 * status = #active
