@@ -1,9 +1,9 @@
-Profile:        FooBarbloodPressure
+Profile:        ToDobloodPressure
 Parent:         Observation
-Id:             IHE.FooBar.bloodPressure
-Title:          "IHE FooBar Blood Pressure Observation"
+Id:             IHE.ToDo.bloodPressure
+Title:          "IHE ToDo Blood Pressure Observation"
 Description:    """
-A profile on the Observation that declares how FooBar will Create/Update blood pressure measurements.
+A profile on the Observation that declares how ToDo will Create/Update blood pressure measurements.
 * must have vital-signs category
 * must have LOINC#55284-4 code AND LOINC#8716-3
 * must have effectiveDateTime
@@ -80,7 +80,7 @@ A profile on the Observation that declares how FooBar will Create/Update blood p
 //* meta.security 0..0
 //* identifier 0..*
 //* text 0..0
-// this is making everything else in observation forbidden. If they show up, apps should not misbehave. IHE FooBar compliant apps shall not populate these in a Create or Update.
+// this is making everything else in observation forbidden. If they show up, apps should not misbehave. IHE ToDo compliant apps shall not populate these in a Create or Update.
 * implicitRules 0..0
 * language 0..0
 * contained 0..0
@@ -103,10 +103,10 @@ A profile on the Observation that declares how FooBar will Create/Update blood p
 * derivedFrom 0..0
 
 // This is showing how to build a valueSet. This will be a standalone valueset, but is built here because this is where it is first used
-ValueSet: IheFooBarBloodPressurePositions
-Id: ihe-foobar-blood-pressure-positions
+ValueSet: IheToDoBloodPressurePositions
+Id: ihe-ToDo-blood-pressure-positions
 Title: "The methods of measurement for blood pressure"
-Description: "These are the loinc body positions that IHE FooBar supports on blood pressure."
+Description: "These are the loinc body positions that IHE ToDo supports on blood pressure."
 * ^experimental = false
 * LOINC#69000-8 "Heart rate - sitting"
 * LOINC#69001-6 "Heart rate - standing"

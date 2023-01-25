@@ -4,15 +4,16 @@
 # e.g. ihe.iti.mhds, or ihe.iti.basicaudit
 id: ihe.domain.profile
 canonical: https://profiles.ihe.net/Domain/Profile
-version: 0.1.1
+version: 0.0.1-current
 name: IHE_Domain_Profile
 title: "spelled out name of the IHE Profile"
 description: put the short description of the profile here. it should explain what problem is being solved
 releaseLabel: ci-build
 #releaseLabel: Trial-Implementation
 #date: 2022-01-02
-status: active
+status: draft
 publisher:
+  ## Find your domain contact on the https://www.ihe.net/ihe_domains page
   - name: IHE IT Infrastructure Technical Committee
   - url: https://www.ihe.net/ihe_domains/it_infrastructure/
   - email: iti@ihe.net
@@ -52,28 +53,34 @@ resources:
 
 
 pages:
-# itemize here each narrative page. Include assigned section numbers when appropriate
+# itemize here each narrative page. Include assigned section numbers when appropriate. The order they appear here is the order they will appear in the TOC and on the next/prev navigation.
   index.md:
-    title: 1:XX. Profile Home
+    title: 1:XX. ToDo Home
     generation: markdown
   volume-1.md:
-    title: 1:XX. Profile Volume 1
+    title: 1:XX. ToDo Volume 1
     generation: markdown
   domain-YY.md:
     title: 2:3.YY Transaction one [Domain-YY]
     generation: markdown
+  domain-ZZ.md:
+    title: 3:?.ZZ Content one [Domain-ZZ]
+    generation: markdown
   testplan.md:
     title: "Test Plan"
-    generation: markdown
-  issues.md:
-    title: Open and Closed issues
     generation: markdown
   other.md:
     title: Changes to Other Profiles
     generation: markdown
-    
+  download.md:
+    title: "Download and analysis"
+    generation: markdown
+  issues.md:
+    title: Open and Closed issues
+    generation: markdown
+
 menu:
-  FooBar Home: index.html
+  Home: index.html
   Volume 1:
     Introduction: volume-1.html
     Actors and Transactions: volume-1.html#actors-and-transactions
@@ -84,6 +91,10 @@ menu:
     Cross-Profile Considerations: volume-1.html#other-grouping
   Volume 2:
     "Transaction one [Domain-YY]": domain-YY.html
-  Test Plan: testplan.html
+  Volume 3:
+    "Content one [Domain-ZZ]": domain-ZZ.html
   Artifacts: artifacts.html
-  Other: other.html
+  Other:
+    Test Plan: testplan.html
+    Changes to other IHE specifications: other.html
+    Download and Analysis: download.html
