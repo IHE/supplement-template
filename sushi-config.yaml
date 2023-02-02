@@ -69,20 +69,14 @@ pages:
   testplan.md:
     title: "Test Plan"
     generation: markdown
-<<<<<<< HEAD
-  issues.md:
-    title: Significant Changes & Issues
-    generation: markdown
-=======
->>>>>>> 1ef4d31fb17b0c5007baba0ae5036da8fb4ec354
   other.md:
-    title: Changes to Other Profiles
+    title: Changes to Other Documents
     generation: markdown
   download.md:
-    title: "Download and analysis"
+    title: "Download and Analysis"
     generation: markdown
   issues.md:
-    title: Open and Closed issues
+    title: Significant Changes & Issues
     generation: markdown
 
 menu:
@@ -102,5 +96,5 @@ menu:
   Artifacts: artifacts.html
   Other:
     Test Plan: testplan.html
-    Changes to other IHE specifications: other.html
+    Changes to Other IHE Specifications: other.html
     Download and Analysis: download.html
