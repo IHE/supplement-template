@@ -1,11 +1,10 @@
 /input/images/Thumbs.db
-temp
-template
-output
-input-cache
-fsh-generated
-.vscode
-www
+/temp
+/template
+/output
+/input-cache
+/fsh-generated
+/.vscode
 /_gencontinuous.bat
 /_gencontinuous.sh
 /_genonce.bat

@@ -60,8 +60,8 @@ This message uses the HTTP GET method on the target Server endpoint to convey th
 ### CapabilityStatement Resource
 
 Server implementing this transaction shall provide a CapabilityStatement Resource as described in ITI TF-2x: Appendix Z.3 indicating the transaction has been implemented. 
-* Requirements CapabilityStatement for [Client](CapabilityStatement-IHE.FooBar.client.html)
-* Requirements CapabilityStatement for [Server](CapabilityStatement-IHE.FooBar.server.html)
+* Requirements CapabilityStatement for [Client](CapabilityStatement-IHE.ToDo.client.html)
+* Requirements CapabilityStatement for [Server](CapabilityStatement-IHE.ToDo.server.html)
 
 ### Security Considerations
 

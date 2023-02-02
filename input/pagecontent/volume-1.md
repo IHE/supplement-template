@@ -5,7 +5,9 @@
 
 **TODO: Explicitly state whether this is a Workflow, Transport, or Content Module (or combination) profile. See the IHE Technical Frameworks General Introduction for definitions of these profile types. The IHE Technical Frameworks [General Introduction](https://profiles.ihe.net/GeneralIntro/). **
 
-## 1:X.1 FooBar Actors, Transactions, and Content Modules <a name="actors-and-transactions"> </a>
+## 1:X.1 ToDo Actors, Transactions, and Content Modules
+
+<a name="actors-and-transactions"> </a>
 
 * Actors
 
@@ -29,7 +31,7 @@ Actors and transactions are used to achieve this use-case...
 This section defines the actors and transactions in this implementation guide.
 
 Figure below shows the actors directly
-involved in the FooBar 
+involved in the ToDo 
 Profile and the relevant transactions between them.
 
 <div>
@@ -37,7 +39,7 @@ Profile and the relevant transactions between them.
 </div>
 <br clear="all">
 
-**Figure: FooBar Actor Diagram**
+**Figure: ToDo Actor Diagram**
 
 Table XX.1-1: Profile Acronym Profile - Actors and Transactions
 
@@ -67,28 +69,34 @@ if Actor B supports XYZ Option, see Section XX.3.X.*
 ### XX.1.1 Actors
 The actors in this profile are described in more detail in the sections below.
 
-#### XX.1.1.1 Client <a name="client"> </a>
+#### XX.1.1.1 Client
+
+<a name="client"> </a>
 
 The Client queries for blah meeting certain criteria and may retrieve selected blah.
 
-FHIR Capability Statement for [Client]{CapabilityStatement-IHE.FooBar.client.html}
+FHIR Capability Statement for [Client]{CapabilityStatement-IHE.ToDo.client.html}
 
-#### XX.1.1.2 Server <a name="server"> </a>
+#### XX.1.1.2 Server
+
+<a name="server"> </a>
 
 The Sever processes query request from the Client actor.
 
-FHIR Capability Statement for [Server](CapabilityStatement-IHE.FooBar.server.html)
+FHIR Capability Statement for [Server](CapabilityStatement-IHE.ToDo.server.html)
 
 ### Transaction Descriptions
 The transactions in this profile are summarized in the sections below.
 
-#### FooBar do transaction
+#### ToDo do transaction
 
 This transaction is used to **do things**
 
 For more details see the detailed [transaction description](domain-YY.html)
 
-## XX.2 FooBar Actor Options <a name="actor-options"> </a>
+## XX.2 ToDo Actor Options
+
+<a name="actor-options"> </a>
 
 Options that may be selected for each actor in this implementation guide, are listed in Table 3.2-1 below. Dependencies 
 between options when applicable are specified in notes.
@@ -104,7 +112,9 @@ between options when applicable are specified in notes.
 
 **TODO: describe this option and the Volume 1 requirements for this option
 
-## XX.3 FooBar Required Actor Groupings <a name="required-groupings"> </a>
+## XX.3 ToDo Required Actor Groupings
+
+<a name="required-groupings"> </a>
 
 *Describe any requirements for actors in this profile to be grouped
 with other actors.*
@@ -359,7 +369,9 @@ Guidance on using the “Grouping Condition” column:
 </table>
 
 
-## XX.4 FooBar Overview <a name="overview"> </a>
+## XX.4 ToDo Overview
+
+<a name="overview"> </a>
 
 This section shows how the transactions/content modules of the profile
 are combined to address the use cases.
@@ -447,7 +459,9 @@ Very briefly (typically one sentence) describe the state of the
 clinical scenario after this content module has been created including
 examples of potential next steps.
 
-## XX.5 FooBar Security Considerations <a name="security-considerations"> </a>
+## XX.5 ToDo Security Considerations
+
+<a name="security-considerations"> </a>
 
 See ITI TF-2x: [Appendix Z.8 “Mobile Security Considerations”](https://profiles.ihe.net/ITI/TF/Volume2/ch-Z.html#z.8-mobile-security-considerations)
 
@@ -534,7 +548,9 @@ This section also include specific considerations regarding Digital Signatures, 
 
 Where audit logging is specified, a StructureDefinition profile(s) should be included, and Examples of those logs might be included.
 
-## XX.6 FooBar Cross-Profile Considerations <a name="other-grouping"> </a>
+## XX.6 ToDo Cross-Profile Considerations
+
+<a name="other-grouping"> </a>
 
 This section is informative, not normative. It is intended to put
 this profile in context with other profiles. Any required groupings

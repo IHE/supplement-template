@@ -1,9 +1,9 @@
 Instance:   ex-weight
-InstanceOf: IHE.FooBar.bodyWeight
-Title: "Example of an FooBar bodyWeight R4 observation"
+InstanceOf: IHE.ToDo.bodyWeight
+Title: "Example of an ToDo bodyWeight R4 observation"
 Description: """
 Sample for demonstration purposes of a common weight Observation
-- marked as compliant with IHE.FooBar.bodyWeight profile
+- marked as compliant with IHE.ToDo.bodyWeight profile
 - marked as test data
 - status of final
 - category vital-signs

@@ -1,6 +1,6 @@
-Instance:   ex-IHE-FooBar-bloodPressure-0
-InstanceOf: IHE.FooBar.bloodPressure
-Title: "Example of an IHE FooBar blood pressure R4 observation, minimal"
+Instance:   ex-IHE-ToDo-bloodPressure-0
+InstanceOf: IHE.ToDo.bloodPressure
+Title: "Example of an IHE ToDo blood pressure R4 observation, minimal"
 Description:      "holding typical values"
 * meta.security = http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST
 * status = #final

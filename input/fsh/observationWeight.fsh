@@ -1,8 +1,8 @@
-Profile:        IheFooBarBodyWeight
+Profile:        IheToDoBodyWeight
 Parent:         Observation
-Id:             IHE.FooBar.bodyWeight
-Title:          "IHE FooBar BodyWeight Observation"
-Description:    "A profile on the Observation that declares how FooBar will Create/Update for body weight measurements."
+Id:             IHE.ToDo.bodyWeight
+Title:          "IHE ToDo BodyWeight Observation"
+Description:    "A profile on the Observation that declares how ToDo will Create/Update for body weight measurements."
 * category 1..1
 * category = http://terminology.hl7.org/CodeSystem/observation-category#vital-signs
 * code = http://loinc.org#29463-7

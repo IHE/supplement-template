@@ -1,6 +1,6 @@
-Instance: IHE.FooBar.client
+Instance: IHE.ToDo.client
 InstanceOf: CapabilityStatement
-Title: "FooBar Actor"
+Title: "ToDo Actor"
 Usage: #definition
 * description = """
 CapabilityStatement for Client Actor 
@@ -9,9 +9,9 @@ Explain
 - blah
 - blah
 """
-* url = "https://profiles.ihe.net/Domain/Profile/CapabilityStatement/IHE.FooBar.client"
-* name = "IHE_FooBar_client"
-* title = "IHE FooBar client"
+* url = "https://profiles.ihe.net/Domain/Profile/CapabilityStatement/IHE.ToDo.client"
+* name = "IHE_ToDo_client"
+* title = "IHE ToDo client"
 * status = #active
 * experimental = false
 * date = "2022-10-27"
@@ -21,13 +21,13 @@ Explain
 * format[+] = #application/fhir+json
 * rest
   * mode = #client
-  * documentation = "FooBar Client provides capability to blah blah."
+  * documentation = "ToDo Client provides capability to blah blah."
   * security
     * description = "Recommend [ATNA](https://profiles.ihe.net/ITI/TF/Volume1/ch-9.html), encouraged [IHE-IUA](https://profiles.ihe.net/ITI/IUA/index.html) or [SMART-app-launch](http://www.hl7.org/fhir/smart-app-launch/)"
   * resource[+]
     * type = #Patient
     * documentation = """
-FooBar transaction [ITI-00]
+ToDo transaction [ITI-00]
 """
     * interaction[+].code = #read
     * interaction[+].code = #search-type
@@ -91,9 +91,9 @@ FooBar transaction [ITI-00]
   * interaction.code = #search-system
 
 
-Instance: IHE.FooBar.server
+Instance: IHE.ToDo.server
 InstanceOf: CapabilityStatement
-Title: "FooBar Server Actor"
+Title: "ToDo Server Actor"
 Usage: #definition
 * description = """
 CapabilityStatement for Server Actor.
@@ -102,9 +102,9 @@ Explain
 - blah
 - blah
 """
-* url = "https://profiles.ihe.net/Domain/Profile/CapabilityStatement/IHE.FooBar.server"
-* name = "IHE_FooBar_supplier"
-* title = "IHE FooBar Server"
+* url = "https://profiles.ihe.net/Domain/Profile/CapabilityStatement/IHE.ToDo.server"
+* name = "IHE_ToDo_supplier"
+* title = "IHE ToDo Server"
 * status = #active
 * experimental = false
 * date = "2022-10-27"
@@ -114,13 +114,13 @@ Explain
 * format[+] = #application/fhir+json
 * rest
   * mode = #server
-  * documentation = "FooBar Client provides capability to blah blah."
+  * documentation = "ToDo Client provides capability to blah blah."
   * security
     * description = "Recommend [ATNA](https://profiles.ihe.net/ITI/TF/Volume1/ch-9.html), encouraged [IHE-IUA](https://profiles.ihe.net/ITI/IUA/index.html) or [SMART-app-launch](http://www.hl7.org/fhir/smart-app-launch/)"
   * resource[+]
     * type = #Patient
     * documentation = """
-FooBar transaction [ITI-00]
+ToDo transaction [ITI-00]
 """
     * interaction[+].code = #read
     * interaction[+].code = #search-type
