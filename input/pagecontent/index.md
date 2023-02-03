@@ -5,7 +5,7 @@
 
 <div markdown="1" class="stu-note">
 
-| [Significant Changes, Open, and Closed Issues](issues.html) |
+| [Significant Changes, Open and Closed Issues](issues.html) |
 {: .grid}
 
 </div>
@@ -30,8 +30,8 @@ This guide is organized into the following sections:
 4. Volume 4: National Extensions
    1. **TODO: point at the National Extensions if there are any**
 6. Other
-   1. Test Plan](testplan.html)
-   1. [Changes to Other Specifications](other.html)
+   1. [Test Plan](testplan.html)
+   1. [Changes to Other IHE Specifications](other.html)
    1. [Download and Analysis](download.html) 
 
 See also the [Table of Contents](toc.html) and the index of [Artifacts](artifacts.html) defined as part of this implementation guide.
