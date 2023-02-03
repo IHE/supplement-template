@@ -21,21 +21,20 @@ This guide is organized into the following sections:
    1. [Overview](volume-1.html#overview)
    1. [Security Considerations](volume-1.html#security-considerations)
    1. [Cross Profile Considerations](volume-1.html#other-grouping)
-   1. **TODO: point to your volume 1 appendix if you have them**
+   1. **TODO: point to the Volume 1 Appendix if there is one**
 2. Volume 2: Transaction Detail
    1. [ToDo do \[domain-YY\]](domain-YY.html)
-   1. **TODO: point to your volume 2 appendix if you have them**
+   1. **TODO: point to the Volume 2 Appendix if there is one**
 3. Volume 3: Metadata and Content
    1. [Content One](domain-ZZ.html)
 4. Volume 4: National Extensions
-   1. **TODO: point at your national extensions if you have them**
+   1. **TODO: point at the National Extensions if there are any**
 6. Other
-   1. [Changes to Other Profiles](other.html)
-   1. [Download and Analysis](download.html)
-   1. [Test Plan](testplan.html)
+   1. Test Plan](testplan.html)
+   1. [Changes to Other Specifications](other.html)
+   1. [Download and Analysis](download.html) 
 
-See also the [Table of Contents](toc.html) and
-the index of [Artifacts](artifacts.html) defined as part of this implementation guide.
+See also the [Table of Contents](toc.html) and the index of [Artifacts](artifacts.html) defined as part of this implementation guide.
 
 ### Conformance Expectations
 
