@@ -19,13 +19,11 @@ The Client [ITI-Y] transaction passes a go Request from a Client to a Server.
 
 ### Interactions
 
-<div>
+<figure>
 {%include domain-Y-seq.svg%}
-</div>
+<figcaption><b>Figure: Go Interactions</b></figcaption>
+</figure>
 <br clear="all">
-
-**Figure: Go Interactions**
-
 
 #### go Query Message
 This message uses the HTTP GET method on the target Server endpoint to convey the query parameters FHIR query.

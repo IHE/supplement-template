@@ -21,12 +21,11 @@
 
 Actors and transactions are used to achieve this use-case...
 
-<div>
+<figure>
 {%include usecase1-processflow.svg%}
-</div>
+<figcaption><b>Figure XX.1-1: Use Case 1 Process Flow</b></figcaption>
+</figure>
 <br clear="all">
-
-**Figure: Use Case 1 Process Flow**
 
 This section defines the actors and transactions in this implementation guide.
 
@@ -34,12 +33,11 @@ Figure below shows the actors directly
 involved in the ToDo 
 Profile and the relevant transactions between them.
 
-<div>
+<figure>
 {%include ActorsAndTransactions.svg%}
-</div>
+<figcaption><b>Figure XX.1-2: ToDo Actor Diagram</b></figcaption>
+</figure>
 <br clear="all">
-
-**Figure: ToDo Actor Diagram**
 
 Table XX.1-1: Profile Acronym Profile - Actors and Transactions
 
@@ -69,17 +67,17 @@ if Actor B supports XYZ Option, see Section XX.3.X.*
 ### XX.1.1 Actors
 The actors in this profile are described in more detail in the sections below.
 
-#### XX.1.1.1 Client
-
 <a name="client"> </a>
+
+#### XX.1.1.1 Client
 
 The Client queries for blah meeting certain criteria and may retrieve selected blah.
 
 FHIR Capability Statement for [Client]{CapabilityStatement-IHE.ToDo.client.html}
 
-#### XX.1.1.2 Server
-
 <a name="server"> </a>
+
+#### XX.1.1.2 Server
 
 The Sever processes query request from the Client actor.
 
@@ -427,12 +425,11 @@ actor from a different profile.
 
 Modify the following “Swimlane Diagram”.
 
-<div>
+<figure>
 {%include usecase1-processflow.svg%}
-</div>
+<figcaption><b>Figure XX.4.2.2-1: Basic Process Flow in Profile Acronym Profile</b></figcaption>
+</figure>
 <br clear="all">
-
-Figure XX.4.2.2-1: Basic Process Flow in Profile Acronym Profile
 
 If process flow “swimlane” diagrams require additional explanation
 to clarify conditional flows, or flow variations need to be described
