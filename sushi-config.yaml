@@ -9,7 +9,9 @@ name: IHE_Domain_Profile
 title: "spelled out name of the IHE Profile"
 description: put the short description of the profile here. it should explain what problem is being solved
 releaseLabel: ci-build
-#releaseLabel: Trial-Implementation
+#releaseLabel: ballot
+#releaseLabel: trial-use
+#releaseLabel: release
 #date: 2022-01-02
 status: draft
 publisher:
