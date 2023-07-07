@@ -11,6 +11,7 @@
 </div>
 
 ### Organization of This Guide
+
 This guide is organized into the following sections:
 
 1. Volume 1:
@@ -29,10 +30,10 @@ This guide is organized into the following sections:
    1. [Content One](domain-ZZ.html)
 4. Volume 4: National Extensions
    1. **TODO: point at the National Extensions if there are any**
-6. Other
+5. Other
    1. [Test Plan](testplan.html)
    1. [Changes to Other IHE Specifications](other.html)
-   1. [Download and Analysis](download.html) 
+   1. [Download and Analysis](download.html)
 
 See also the [Table of Contents](toc.html) and the index of [Artifacts](artifacts.html) defined as part of this implementation guide.
 
@@ -44,6 +45,6 @@ IHE uses the normative words: Shall, Should, and May according to [standards con
 
 The use of ```mustSupport``` in StructureDefinition profiles equivalent to the IHE use of **R2** as defined in [Appendix Z](https://profiles.ihe.net/ITI/TF/Volume2/ch-Z.html#z.10-profiling-conventions-for-constraints-on-fhir).
 
-mustSupport of true - only has a meaning on items that are minimal cardinality of zero (0), and applies only to the source actor populating the data. The source actor shall populate the elements marked with MustSupport, if the concept is supported by the actor, a value exists, and security and consent rules permit. 
-The consuming actors should handle these elements being populated or being absent/empty. 
+mustSupport of true - only has a meaning on items that are minimal cardinality of zero (0), and applies only to the source actor populating the data. The source actor shall populate the elements marked with MustSupport, if the concept is supported by the actor, a value exists, and security and consent rules permit.
+The consuming actors should handle these elements being populated or being absent/empty.
 Note that sometimes mustSupport will appear on elements with a minimal cardinality greater than zero (0), this is due to inheritance from a less constrained profile.

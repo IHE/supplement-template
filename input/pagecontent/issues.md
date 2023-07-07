@@ -1,7 +1,8 @@
 
 ## Significant Changes
 
-### Significant Changes from Revison x.x 
+### Significant Changes from Revision x.x
+
 - change 1
 - change 2
 - etc.
@@ -12,8 +13,8 @@
 
 ### Open Issues
 
-* ToDo_001: this is open issue 1
+- ToDo_001: this is open issue 1
 
 ### Closed Issues
 
-* ToDo_002: this is closed issue 2
+- ToDo_002: this is closed issue 2

@@ -5,19 +5,15 @@
 
 **TODO: Explicitly state whether this is a Workflow, Transport, or Content Module (or combination) profile. See the IHE Technical Frameworks General Introduction for definitions of these profile types. The IHE Technical Frameworks [General Introduction](https://profiles.ihe.net/GeneralIntro/). **
 
-## 1:X.1 ToDo Actors, Transactions, and Content Modules
-
 <a name="actors-and-transactions"> </a>
 
+## 1:X.1 ToDo Actors, Transactions, and Content Modules
+
 * Actors
-
-  - [Client](#client)
-
-  - [Server](#server)
-
+  * [Client](#client)
+  * [Server](#server)
 * Transactions
-
-  - [do domain-Y](domain-YY.html)
+  * [do domain-Y](domain-YY.html)
 
 Actors and transactions are used to achieve this use-case...
 
@@ -59,7 +55,7 @@ Table XX.1-1: Profile Acronym Profile - Actors and Transactions
 Note 1: *For example, a note could specify that at least one of the
 transactions shall be supported by an actor or other variations. For
 example: Note: Either Transaction Y3 or Transaction Y4 shall be
-implemented for Actor E. *
+implemented for Actor E.*
 
 Note 2: *For example, could specify that Transaction Y4 is required
 if Actor B supports XYZ Option, see Section XX.3.X.*
@@ -84,6 +80,7 @@ The Sever processes query request from the Client actor.
 FHIR Capability Statement for [Server](CapabilityStatement-IHE.ToDo.server.html)
 
 ### Transaction Descriptions
+
 The transactions in this profile are summarized in the sections below.
 
 #### ToDo do transaction
@@ -92,11 +89,11 @@ This transaction is used to **do things**
 
 For more details see the detailed [transaction description](domain-YY.html)
 
-## XX.2 ToDo Actor Options
-
 <a name="actor-options"> </a>
 
-Options that may be selected for each actor in this implementation guide, are listed in Table 3.2-1 below. Dependencies 
+## XX.2 ToDo Actor Options
+
+Options that may be selected for each actor in this implementation guide, are listed in Table 3.2-1 below. Dependencies
 between options when applicable are specified in notes.
 
 |         |             |
@@ -106,13 +103,13 @@ between options when applicable are specified in notes.
 | Actor B | none |
 {: .grid}
 
-#### XX.2.1 AB Option
+### XX.2.1 AB Option
 
 **TODO: describe this option and the Volume 1 requirements for this option
 
-## XX.3 ToDo Required Actor Groupings
-
 <a name="required-groupings"> </a>
+
+## XX.3 ToDo Required Actor Groupings
 
 *Describe any requirements for actors in this profile to be grouped
 with other actors.*
@@ -144,13 +141,11 @@ groupings in other related profiles.
 
 Two alternatives for Table XX.3-1 are presented below.
 
--   If there are no required groupings for any actor in this profile,
+* If there are no required groupings for any actor in this profile,
     use alternative 1 as a template.
-
--   If an actor in this profile (with no option), has a required
+* If an actor in this profile (with no option), has a required
     grouping, use alternative 1.
-
--   If any required grouping is associated with an actor/option
+* If any required grouping is associated with an actor/option
     combination in this profile, use alternative 2.
 
 alternative 1 Table XX.3-1: Profile Name - Required Actor
@@ -289,21 +284,20 @@ Note 2: *A note could also be used to explain why the grouping is
 required, if that is still not clear from the text above.*
 
 alternative 2 Table XX.3-1: this Profile Acronym Profile
-- Required Actor Groupings
+
+* Required Actor Groupings
 
 All actors from this profile should be listed in Column 1. If no
-required grouping exists, “None” should be indicated in Column 3. 
+required grouping exists, “None” should be indicated in Column 3.
 
 Guidance on using the “Grouping Condition” column:
 
--   If an actor has no required grouping, Column 2 should contain “--“.
+* If an actor has no required grouping, Column 2 should contain “--“.
     See Actor A below.
-
--   If an actor has a required grouping that is not associated with a
+* If an actor has a required grouping that is not associated with a
     profile option (i.e., it has no condition), column 2 should contain
     “Required”. See Actor B below.
-
--   Sometimes an option requires that an actor in this profile be
+* Sometimes an option requires that an actor in this profile be
     grouped with an actor in another profile. That condition is
     specified in Column 2. See Actor C below.
 
@@ -366,10 +360,9 @@ Guidance on using the “Grouping Condition” column:
 </tbody>
 </table>
 
+<a name="overview"> </a>
 
 ## XX.4 ToDo Overview
-
-<a name="overview"> </a>
 
 This section shows how the transactions/content modules of the profile
 are combined to address the use cases.
@@ -456,18 +449,18 @@ Very briefly (typically one sentence) describe the state of the
 clinical scenario after this content module has been created including
 examples of potential next steps.
 
-## XX.5 ToDo Security Considerations
-
 <a name="security-considerations"> </a>
+
+## XX.5 ToDo Security Considerations
 
 See ITI TF-2x: [Appendix Z.8 “Mobile Security Considerations”](https://profiles.ihe.net/ITI/TF/Volume2/ch-Z.html#z.8-mobile-security-considerations)
 
-The following is instructions to the editor and this text is not to be included in a publication. 
+The following is instructions to the editor and this text is not to be included in a publication.
 The material initially from [RFC 3552 "Security Considerations Guidelines" July 2003](https://tools.ietf.org/html/rfc3552).
 
 This section should address downstream design considerations, specifically for: Privacy, Security, and Safety. These might need to be individual header sections if they are significant or need to be referenced.
 
-The editor needs to understand Security and Privacy fundamentals. 
+The editor needs to understand Security and Privacy fundamentals.
 General [Security and Privacy guidance](http://hl7.org/fhir/secpriv-module.html) is provided in the FHIR Specification. 
 The FHIR core specification should be leveraged where possible to inform the reader of your specification.
 
@@ -478,19 +471,19 @@ IHE Document Content profiles can reference the security and privacy provided by
    While it is not a requirement that any given specification or system be
    immune to all forms of attack, it is still necessary for authors of specifications to
    consider as many forms as possible.  Part of the purpose of the
-   Security and Privacy Considerations section is to explain what attacks have been 
+   Security and Privacy Considerations section is to explain what attacks have been
    considered and what countermeasures can be applied to defend against them.
-   
+
    There should be a clear description of the kinds of threats on the
    described specification.  This should be approached as an
    effort to perform "due diligence" in describing all known or
    foreseeable risks and threats to potential implementers and users.
 
 Authors MUST describe:
+
 * which attacks have been considered and addressed in the specification
 * which attacks have been considered but not addressed in the specification
 * what could be done in system design, system deployment, or user training
-
 
    At least the following forms of attack MUST be considered:
    eavesdropping, replay, message insertion, deletion, modification, and
@@ -545,9 +538,9 @@ This section also include specific considerations regarding Digital Signatures, 
 
 Where audit logging is specified, a StructureDefinition profile(s) should be included, and Examples of those logs might be included.
 
-## XX.6 ToDo Cross-Profile Considerations
-
 <a name="other-grouping"> </a>
+
+## XX.6 ToDo Cross-Profile Considerations
 
 This section is informative, not normative. It is intended to put
 this profile in context with other profiles. Any required groupings
@@ -568,5 +561,3 @@ other profile acronym - other profile name
 A other profile actor name in other profile name might
 be grouped with a this profile actor name to describe
 benefit/what is accomplished by grouping.
-
-

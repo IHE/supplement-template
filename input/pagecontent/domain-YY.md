@@ -26,6 +26,7 @@ The Client [ITI-Y] transaction passes a go Request from a Client to a Server.
 <br clear="all">
 
 #### go Query Message
+
 This message uses the HTTP GET method on the target Server endpoint to convey the query parameters FHIR query.
 
 ##### Trigger Events
@@ -54,10 +55,10 @@ This message uses the HTTP GET method on the target Server endpoint to convey th
 
 ''TODO: define expected actions''
 
-
 ### CapabilityStatement Resource
 
-Server implementing this transaction shall provide a CapabilityStatement Resource as described in ITI TF-2x: Appendix Z.3 indicating the transaction has been implemented. 
+Server implementing this transaction shall provide a CapabilityStatement Resource as described in ITI TF-2x: Appendix Z.3 indicating the transaction has been implemented.
+
 * Requirements CapabilityStatement for [Client](CapabilityStatement-IHE.ToDo.client.html)
 * Requirements CapabilityStatement for [Server](CapabilityStatement-IHE.ToDo.server.html)
 
@@ -69,10 +70,10 @@ See [MHD Security Considerations](volume-1.html#security-considerations)
 
 ''TODO: The security audit criteria ''
 
-##### Client Audit 
+##### Client Audit
 
 ''TODO: the specifics''
 
-##### Server Audit 
+##### Server Audit
 
 ''TODO: the specifics''
