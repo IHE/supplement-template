@@ -21,7 +21,7 @@ The Client [ITI-Y] transaction passes a go Request from a Client to a Server.
 
 <figure>
 {%include domain-Y-seq.svg%}
-<figcaption><b>Figure: Go Interactions</b></figcaption>
+<p id="fX.X.X.X-X" class="figureTitle">Figure X.X.X.X-X: Go Interactions</p>
 </figure>
 <br clear="all">
 
