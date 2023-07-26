@@ -19,7 +19,7 @@ Actors and transactions are used to achieve this use-case...
 
 <figure>
 {%include usecase1-processflow.svg%}
-<figcaption><b>Figure XX.1-1: Use Case 1 Process Flow</b></figcaption>
+<p id="fX.X.X.X-X" class="figureTitle">Figure X.X.X.X-X: Use Case 1 Process Flow</p>
 </figure>
 <br clear="all">
 
@@ -35,7 +35,7 @@ Profile and the relevant transactions between them.
 </figure>
 <br clear="all">
 
-Table XX.1-1: Profile Acronym Profile - Actors and Transactions
+<p id ="tXX.1-1" class="tableTitle">Table XX.1-1: Profile Acronym Profile - Actors and Transactions</p>
 
 |         |               |                        |                 |                                   |
 |---------|---------------|------------------------|-----------------|-----------------------------------|
@@ -95,6 +95,8 @@ For more details see the detailed [transaction description](domain-YY.html)
 
 Options that may be selected for each actor in this implementation guide, are listed in Table 3.2-1 below. Dependencies
 between options when applicable are specified in notes.
+
+<p id ="tXX.1-1" class="tableTitle">Table XX.1-1: Actor Options</p>
 
 |         |             |
 |---------|-------------|
@@ -177,6 +179,8 @@ the required grouping for security. Also see the ITI document titled
 ‘Cookbook: Preparing the IHE Profile Security Section’ at
 <http://ihe.net/Technical_Frameworks/#IT> for a list of suggested IT and
 security groupings.
+
+<p id ="tXX.3-1" class="tableTitle">Table XX.3-1: Actor Groupings</p>
 
 <table border="1" borderspacing="0" style='border: 1px solid black; border-collapse: collapse'>
 <thead>
@@ -300,6 +304,8 @@ Guidance on using the “Grouping Condition” column:
 * Sometimes an option requires that an actor in this profile be
     grouped with an actor in another profile. That condition is
     specified in Column 2. See Actor C below.
+
+<p id ="tXX.3-1" class="tableTitle">Table XX.3-1: Actor Groupings</p>
 
 <table border="1" borderspacing="0" style='border: 1px solid black; border-collapse: collapse'>
 <tbody>
