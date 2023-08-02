@@ -57,10 +57,10 @@ resources:
 pages:
 # itemize here each narrative page. Include assigned section numbers when appropriate. The order they appear here is the order they will appear in the TOC and on the next/prev navigation.
   index.md:
-    title: 1:XX. ToDo Home
+    title: ToDo Home
     generation: markdown
   volume-1.md:
-    title: 1:XX. ToDo Volume 1
+    title: 1:XX ToDo Volume 1
     generation: markdown
   domain-YY.md:
     title: 2:3.YY Transaction one [Domain-YY]
