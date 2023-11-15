@@ -117,7 +117,7 @@ between options when applicable are specified in notes.
 with other actors.*
 
 *This section specifies all REQUIRED Actor Groupings (although
-“required” sometimes allows for a selection of one of several). To
+"required" sometimes allows for a selection of one of several). To
 SUGGEST other profile groupings or helpful references for other profiles
 to consider, use Section XX.6 Cross Profile Considerations. Use Section
 X.5 for security profile recommendations.*
@@ -155,10 +155,10 @@ Groupings
 
 All actors from this profile should be listed in Column 1, even if
 none of the actors has a required groupings. If no required grouping
-exists, “None” should be indicated in Column 2. If an actor in a content
+exists, "None" should be indicated in Column 2. If an actor in a content
 profile is required to be grouped with an actor in a transport or
 workflow profile, it will be listed **with at least one** required
-grouping. Do not use “XD\*” as an actor name.
+grouping. Do not use "XD\*" as an actor name.
 
 In some cases, required groupings are defined as at least one of an
 enumerated set of possible actors; to designate this, create a row for
@@ -176,7 +176,7 @@ this grouping section. Consideration should be given to Consistent Time
 profiles. For the sake of clarity and completeness, even if this table
 begins to become long, a line should be added for each actor for each of
 the required grouping for security. Also see the ITI document titled
-‘Cookbook: Preparing the IHE Profile Security Section’ at
+'Cookbook: Preparing the IHE Profile Security Section' at
 <http://ihe.net/Technical_Frameworks/#IT> for a list of suggested IT and
 security groupings.
 
@@ -292,15 +292,15 @@ alternative 2 Table XX.3-1: this Profile Acronym Profile
 * Required Actor Groupings
 
 All actors from this profile should be listed in Column 1. If no
-required grouping exists, “None” should be indicated in Column 3.
+required grouping exists, "None" should be indicated in Column 3.
 
-Guidance on using the “Grouping Condition” column:
+Guidance on using the "Grouping Condition" column:
 
-* If an actor has no required grouping, Column 2 should contain “--“.
+* If an actor has no required grouping, Column 2 should contain "--".
     See Actor A below.
 * If an actor has a required grouping that is not associated with a
     profile option (i.e., it has no condition), column 2 should contain
-    “Required”. See Actor B below.
+    "Required". See Actor B below.
 * Sometimes an option requires that an actor in this profile be
     grouped with an actor in another profile. That condition is
     specified in Column 2. See Actor C below.
@@ -373,14 +373,14 @@ Guidance on using the “Grouping Condition” column:
 This section shows how the transactions/content modules of the profile
 are combined to address the use cases.
 
-Use cases are informative, not normative, and “SHALL” language is
+Use cases are informative, not normative, and "SHALL" language is
 not allowed in use cases.
 
 ### XX.4.1 Concepts
 
 If needed, this section provides an overview of the concepts that
 provide necessary background for understanding the profile. If not
-needed, state “Not applicable.” For an example of why/how this section
+needed, state "Not applicable." For an example of why/how this section
 may be needed, please see ITI Cross Enterprise Workflow (XDW).
 
 It may be useful in this section but is not necessary, to provide a
@@ -408,7 +408,7 @@ Diagram and describe the process flow(s) covered by this profile in
 order to satisfy the use cases. Demonstrate how the profile transactions
 are combined/sequenced. To provide context and demonstrate how the
 profile interacts with other profiles, feel free to include transactions
-and events that are “external” to this profile (using appropriate
+and events that are "external" to this profile (using appropriate
 notation.)
 
 The set of process flows will typically be exemplary, not exhaustive
@@ -422,7 +422,7 @@ The roles at the top of the swimlane diagram should correspond to
 actor names, include the profile acronym:actor name if referencing an
 actor from a different profile.
 
-Modify the following “Swimlane Diagram”.
+Modify the following "Swimlane Diagram".
 
 <figure>
 {%include usecase1-processflow.svg%}
@@ -430,7 +430,7 @@ Modify the following “Swimlane Diagram”.
 </figure>
 <br clear="all">
 
-If process flow “swimlane” diagrams require additional explanation
+If process flow "swimlane" diagrams require additional explanation
 to clarify conditional flows, or flow variations need to be described
 where alternate systems may be playing different actor roles, document
 those conditional flows here.
@@ -459,7 +459,7 @@ examples of potential next steps.
 
 ## XX.5 ToDo Security Considerations
 
-See ITI TF-2x: [Appendix Z.8 “Mobile Security Considerations”](https://profiles.ihe.net/ITI/TF/Volume2/ch-Z.html#z.8-mobile-security-considerations)
+See ITI TF-2x: [Appendix Z.8 "Mobile Security Considerations"](https://profiles.ihe.net/ITI/TF/Volume2/ch-Z.html#z.8-mobile-security-considerations)
 
 The following is instructions to the editor and this text is not to be included in a publication.
 The material initially from [RFC 3552 "Security Considerations Guidelines" July 2003](https://tools.ietf.org/html/rfc3552).
@@ -554,11 +554,11 @@ should have already been described above. Brief descriptions can go
 directly into this section; lengthy descriptions should go into an
 appendix. Examples of this material include ITI Cross Community Access
 (XCA) Grouping Rules (Section 18.2.3), the Radiology associated profiles
-listed at wiki.ihe.net, or ITI Volume 1 Appendix E “Cross Profile
-Considerations”, and the “See Also” sections Radiology Profile
+listed at wiki.ihe.net, or ITI Volume 1 Appendix E "Cross Profile
+Considerations", and the "See Also" sections Radiology Profile
 descriptions on the wiki such as
 <http://wiki.ihe.net/index.php/Scheduled_Workflow#See_Also>. If this
-section is left blank, add “Not applicable.”
+section is left blank, add "Not applicable."
 
 Consider using a format such as the following:
 
