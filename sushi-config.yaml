@@ -72,13 +72,13 @@ pages:
     title: "Test Plan"
     generation: markdown
   other.md:
-    title: Changes to Other Documents
+    title: Changes to Other IHE Specifications
     generation: markdown
   download.md:
     title: "Download and Analysis"
     generation: markdown
   issues.md:
-    title: Significant Changes & Issues
+    title: Significant Changes and Issues
     generation: markdown
 
 menu:
@@ -97,6 +97,6 @@ menu:
     "Content one [Domain-ZZ]": domain-ZZ.html
   Artifacts: artifacts.html
   Other:
-    Test Plan: testplan.html
     Changes to Other IHE Specifications: other.html
     Download and Analysis: download.html
+    Test Plan: testplan.html
