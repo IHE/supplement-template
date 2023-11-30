@@ -467,7 +467,7 @@ The material initially from [RFC 3552 "Security Considerations Guidelines" July 
 This section should address downstream design considerations, specifically for: Privacy, Security, and Safety. These might need to be individual header sections if they are significant or need to be referenced.
 
 The editor needs to understand Security and Privacy fundamentals.
-General [Security and Privacy guidance](http://hl7.org/fhir/secpriv-module.html) is provided in the FHIR Specification. 
+General [Security and Privacy guidance]({{site.data.fhir.path}}secpriv-module.html) is provided in the FHIR Specification. 
 The FHIR core specification should be leveraged where possible to inform the reader of your specification.
 
 IHE FHIR based profiles should reference the [ITI Appendix Z](https://profiles.ihe.net/ITI/TF/Volume2/ch-Z.html) section 8 Mobile Security and Privacy Considerations base when appropriate.
