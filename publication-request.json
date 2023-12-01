@@ -2,7 +2,7 @@
     "package-id" : "{pid} -- ihe.domain.profile",
     "version" : "{version to release}",
     "path" : "{path} -- https://profiles.ihe.net/Domain/Profile/1.0.0",
-    "milestone" : true | false,
+    "mode" : "milestone",
     "status" : "release",
     "sequence" : "Releases",
     "desc" : "{desc of release} (optional)",

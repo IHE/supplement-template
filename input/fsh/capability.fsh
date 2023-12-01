@@ -25,7 +25,8 @@ Explain
   * security
     * description = "Recommend [ATNA](https://profiles.ihe.net/ITI/TF/Volume1/ch-9.html), encouraged [IHE-IUA](https://profiles.ihe.net/ITI/IUA/index.html) or [SMART-app-launch](http://www.hl7.org/fhir/smart-app-launch/)"
   * resource[+]
-    * type = #Patient
+    * type = #Observation
+    * supportedProfile[+] = "https://profiles.ihe.net/Domain/Profile/StructureDefinition/IHE.ToDo.laugh"
     * documentation = """
 ToDo transaction [ITI-00]
 """
@@ -40,54 +41,17 @@ ToDo transaction [ITI-00]
       * type = #token
       * documentation = "Logical id of this artifact"
     * searchParam[+]
-      * name = "active"
+      * name = "category"
       * type = #token
-      * documentation = "Whether the patient record is active"
+      * documentation = "The classification of the type of observation"
     * searchParam[+]
-      * name = "family"
-      * type = #string
-      * documentation = "A portion of the family name of the patient"
-    * searchParam[+]
-      * name = "given"
-      * type = #string
-      * documentation = "A portion of the given name of the patient"
-    * searchParam[+]
-      * name = "identifier"
+      * name = "code"
       * type = #token
-      * documentation = "A patient identifier"
+      * documentation = "The code of the observation type"
     * searchParam[+]
-      * name = "telecom"
+      * name = "patient"
       * type = #token
-      * documentation = "The value in any kind of telecom details of the patient"
-    * searchParam[+]
-      * name = "birthdate"
-      * type = #date
-      * documentation = "The patient's date of birth"
-    * searchParam[+]
-      * name = "address-city"
-      * type = #string
-      * documentation = "A city specified in an address"
-    * searchParam[+]
-      * name = "address-country"
-      * type = #string
-      * documentation = "A country specified in an address"
-    * searchParam[+]
-      * name = "address-postalcode"
-      * type = #string
-      * documentation = "A postalCode specified in an address"
-    * searchParam[+]
-      * name = "address-state"
-      * type = #string
-      * documentation = "A state specified in an address"
-    * searchParam[+]
-      * name = "gender"
-      * type = #token
-      * documentation = "Gender of the patient"
-    * searchParam[+]
-      * name = "mothersMaidenName"
-      * definition = "http://hl7.org/fhir/SearchParameter/patient-extensions-Patient-mothersMaidenName"
-      * type = #string
-      * documentation = "Mother's maiden (unmarried) name, commonly collected to help verify patient identity."
+      * documentation = "The subject that the observation is about (if patient)"
   * interaction.code = #search-system
 
 
@@ -118,7 +82,8 @@ Explain
   * security
     * description = "Recommend [ATNA](https://profiles.ihe.net/ITI/TF/Volume1/ch-9.html), encouraged [IHE-IUA](https://profiles.ihe.net/ITI/IUA/index.html) or [SMART-app-launch](http://www.hl7.org/fhir/smart-app-launch/)"
   * resource[+]
-    * type = #Patient
+    * type = #Observation
+    * supportedProfile[+] = "https://profiles.ihe.net/Domain/Profile/StructureDefinition/IHE.ToDo.laugh"
     * documentation = """
 ToDo transaction [ITI-00]
 """
@@ -133,53 +98,16 @@ ToDo transaction [ITI-00]
       * type = #token
       * documentation = "Logical id of this artifact"
     * searchParam[+]
-      * name = "active"
+      * name = "category"
       * type = #token
-      * documentation = "Whether the patient record is active"
+      * documentation = "The classification of the type of observation"
     * searchParam[+]
-      * name = "family"
-      * type = #string
-      * documentation = "A portion of the family name of the patient"
-    * searchParam[+]
-      * name = "given"
-      * type = #string
-      * documentation = "A portion of the given name of the patient"
-    * searchParam[+]
-      * name = "identifier"
+      * name = "code"
       * type = #token
-      * documentation = "A patient identifier"
+      * documentation = "The code of the observation type"
     * searchParam[+]
-      * name = "telecom"
+      * name = "patient"
       * type = #token
-      * documentation = "The value in any kind of telecom details of the patient"
-    * searchParam[+]
-      * name = "birthdate"
-      * type = #date
-      * documentation = "The patient's date of birth"
-    * searchParam[+]
-      * name = "address-city"
-      * type = #string
-      * documentation = "A city specified in an address"
-    * searchParam[+]
-      * name = "address-country"
-      * type = #string
-      * documentation = "A country specified in an address"
-    * searchParam[+]
-      * name = "address-postalcode"
-      * type = #string
-      * documentation = "A postalCode specified in an address"
-    * searchParam[+]
-      * name = "address-state"
-      * type = #string
-      * documentation = "A state specified in an address"
-    * searchParam[+]
-      * name = "gender"
-      * type = #token
-      * documentation = "Gender of the patient"
-    * searchParam[+]
-      * name = "mothersMaidenName"
-      * definition = "http://hl7.org/fhir/SearchParameter/patient-extensions-Patient-mothersMaidenName"
-      * type = #string
-      * documentation = "Mother's maiden (unmarried) name, commonly collected to help verify patient identity."
+      * documentation = "The subject that the observation is about (if patient)"
   * interaction.code = #search-system
 
