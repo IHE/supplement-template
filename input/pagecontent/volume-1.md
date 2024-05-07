@@ -1,6 +1,4 @@
 
-# 1:XX Profile name
-
 **TODO: Provide an end-user friendly overview of what the profile does for them. Keep it brief (a paragraph or two, up to a page). If extensive detail is needed, it should be included in Section XX.4- Use Cases.**
 
 **TODO: Explicitly state whether this is a Workflow, Transport, or Content Module (or combination) profile. See the IHE Technical Frameworks General Introduction for definitions of these profile types. The IHE Technical Frameworks [General Introduction](https://profiles.ihe.net/GeneralIntro/). **
@@ -79,11 +77,11 @@ The Sever processes query request from the Client actor.
 
 FHIR Capability Statement for [Server](CapabilityStatement-IHE.ToDo.server.html)
 
-### Transaction Descriptions
+### XX.1.2 Transaction Descriptions
 
 The transactions in this profile are summarized in the sections below.
 
-#### ToDo do transaction
+#### XX.1.2.1 ToDo do transaction
 
 This transaction is used to **do things**
 
