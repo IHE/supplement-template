@@ -67,7 +67,7 @@ The actors in this profile are described in more detail in the sections below.
 
 The Client queries for blah meeting certain criteria and may retrieve selected blah.
 
-FHIR Capability Statement for [Client]{CapabilityStatement-IHE.ToDo.client.html}
+FHIR Capability Statement for [Client](CapabilityStatement-IHE.ToDo.client.html)
 
 <a name="server"> </a>
 
