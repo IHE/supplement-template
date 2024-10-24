@@ -15,7 +15,7 @@ The Client [ITI-Y] transaction passes a go Request from a Client to a Server.
 
 ### Referenced Standards
 
-**FHIR-R4** [HL7 FHIR Release 4.0]({{site.data.fhir.path}})
+- [HL7 FHIR Release 4.0]({{site.data.fhir.path}})
 
 ### Interactions
 
