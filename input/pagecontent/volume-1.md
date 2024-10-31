@@ -17,7 +17,7 @@ Actors and transactions are used to achieve this use-case...
 
 <figure>
 {%include usecase1-processflow.svg%}
-<p id="fX.X.X.X-X" class="figureTitle">Figure X.X.X.X-X: Use Case 1 Process Flow</p>
+<figcaption><strong>Figure X.X.X.X-X: Use Case 1 Process Flow</strong</figcaption>
 </figure>
 <br clear="all">
 
@@ -29,25 +29,24 @@ Profile and the relevant transactions between them.
 
 <figure>
 {%include ActorsAndTransactions.svg%}
-<figcaption><b>Figure XX.1-2: ToDo Actor Diagram</b></figcaption>
+<figcaption><strong>Figure XX.1-2: ToDo Actor Diagram</strong></figcaption>
 </figure>
 <br clear="all">
 
-<p id ="tXX.1-1" class="tableTitle">Table XX.1-1: Profile Acronym Profile - Actors and Transactions</p>
+<p id ="tXX.1-1" class="tableTitle"><strong>Table XX.1-1: Profile Acronym Profile - Actors and Transactions</strong></p>
 
-|         |               |                        |                 |                                   |
-|---------|---------------|------------------------|-----------------|-----------------------------------|
-| Actors  | Transactions  | Initiator or Responder | Optionality     | Reference                         |
-| Actor A | Transaction 1 |                        | R               | Domain Acronym TF-2: 3.Y1 |
-|         | Transaction 2 |                        | R               | Domain Acronym TF-2: 3.Y2 |
-| Actor F | Transaction 1 |                        | R               | Domain Acronym TF-2: 3.Y1 |
-|         | Transaction 2 |                        | R               | Domain Acronym TF-2: 3.Y2 |
-| Actor D | Transaction 1 |                        | R               | Domain Acronym TF-2: 3.Y1 |
-| Actor E | Transaction 2 |                        | R               | Domain Acronym TF-2: 3.Y2 |
-|         | Transaction 3 |                        | O ( See Note 1) | Domain Acronym TF-2: 3.Y3 |
-|         | Transaction 4 |                        | O ( See Note 1) | Domain Acronym TF-2: 3.Y4 |
-| Actor B | Transaction 3 |                        | R               | Domain Acronym TF-2: 3.Y3 |
-|         | Transaction 4 |                        | O ( See Note 2) | Domain Acronym TF-2: 3.Y4 |
+| Actors  | Transactions  | Initiator or Responder | Optionality     | Reference                                  |
+|---------|---------------|------------------------|-----------------|--------------------------------------------|
+| Actor A | Transaction 1 |                        | R               | [Domain Acronym TF-2: 3.Y1](./domain-Y1.html) |
+|         | Transaction 2 |                        | R               | [Domain Acronym TF-2: 3.Y2](./domain-Y2.html) |
+| Actor F | Transaction 1 |                        | R               | [Domain Acronym TF-2: 3.Y1](./domain-Y1.html) |
+|         | Transaction 2 |                        | R               | [Domain Acronym TF-2: 3.Y2](./domain-Y2.html) |
+| Actor D | Transaction 1 |                        | R               | [Domain Acronym TF-2: 3.Y1](./domain-Y1.html) |
+| Actor E | Transaction 2 |                        | R               | [Domain Acronym TF-2: 3.Y2](./domain-Y2.html) |
+|         | Transaction 3 |                        | O ( See Note 1) | [Domain Acronym TF-2: 3.Y3](./domain-Y3.html) |
+|         | Transaction 4 |                        | O ( See Note 1) | [Domain Acronym TF-2: 3.Y4](./domain-Y4.html) |
+| Actor B | Transaction 3 |                        | R               | [Domain Acronym TF-2: 3.Y3](./domain-Y3.html) |
+|         | Transaction 4 |                        | O ( See Note 2) | [Domain Acronym TF-2: 3.Y4](./domain-Y4.html) |
 {: .grid}
 
 Note 1: *For example, a note could specify that at least one of the
@@ -91,14 +90,13 @@ For more details see the detailed [transaction description](domain-YY.html)
 
 ## XX.2 ToDo Actor Options
 
-Options that may be selected for each actor in this implementation guide, are listed in Table 3.2-1 below. Dependencies
+Options that may be selected for each actor in this implementation guide, are listed in Table XX.2-1 below. Dependencies
 between options when applicable are specified in notes.
 
-<p id ="tXX.1-1" class="tableTitle">Table XX.1-1: Actor Options</p>
+<p id ="tXX.2-1" class="tableTitle"><strong>Table XX.2-1: Actor Options<strong></p>
 
-|         |             |
-|---------|-------------|
 | Actor   | Option Name |
+|---------|-------------|
 | Actor A | Option AB  |
 | Actor B | none |
 {: .grid}
@@ -178,7 +176,7 @@ the required grouping for security. Also see the ITI document titled
 <http://ihe.net/Technical_Frameworks/#IT> for a list of suggested IT and
 security groupings.
 
-<p id ="tXX.3-1" class="tableTitle">Table XX.3-1: Actor Groupings</p>
+<p id ="tXX.3-1" class="tableTitle"><strong>Table XX.3-1: Actor Groupings</strong></p>
 
 <table border="1" borderspacing="0" style='border: 1px solid black; border-collapse: collapse'>
 <thead>
@@ -303,7 +301,7 @@ Guidance on using the "Grouping Condition" column:
     grouped with an actor in another profile. That condition is
     specified in Column 2. See Actor C below.
 
-<p id ="tXX.3-1" class="tableTitle">Table XX.3-1: Actor Groupings</p>
+<p id ="tXX.3-1" class="tableTitle"><strong>Table XX.3-1: Actor Groupings</strong></p>
 
 <table border="1" borderspacing="0" style='border: 1px solid black; border-collapse: collapse'>
 <tbody>
@@ -424,7 +422,7 @@ Modify the following "Swimlane Diagram".
 
 <figure>
 {%include usecase1-processflow.svg%}
-<figcaption><b>Figure XX.4.2.2-1: Basic Process Flow in Profile Acronym Profile</b></figcaption>
+<figcaption><strong>Figure XX.4.2.2-1: Basic Process Flow in Profile Acronym Profile</strong></figcaption>
 </figure>
 <br clear="all">
 

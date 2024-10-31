@@ -6,7 +6,7 @@ The Client [ITI-Y] transaction passes a go Request from a Client to a Server.
 
 ### Actors Roles
 
-**Table: Actor Roles**
+<p id ="t3.YY.2-1" class="tableTitle">Table 2:3.YY.2-1: Actor Roles<strong></p>
 
 |Actor | Role |
 |-------------------+--------------------------|
@@ -21,7 +21,7 @@ The Client [ITI-Y] transaction passes a go Request from a Client to a Server.
 
 <figure>
 {%include domain-Y-seq.svg%}
-<p id="fX.X.X.X-X" class="figureTitle">Figure X.X.X.X-X: Go Interactions</p>
+<figcaption><strong>Figure X.X.X.X-X: Go Interactions</strong><figcaption>
 </figure>
 <br clear="all">
 
