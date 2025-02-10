@@ -100,7 +100,7 @@ Description:      "holding typical values"
 * meta.security = http://terminology.hl7.org/CodeSystem/v3-ActReason#HTEST
 * status = #final
 * category.coding[activity] = http://terminology.hl7.org/CodeSystem/observation-category#activity "Activity"
-* code.coding[loincCode1] = LOINC#71344-6 "I have been able to laugh and see the funny side of things"
+* code.coding[loincCode1] = LOINC#71344-6 "I have been able to laugh and see the funny side of things in the past 7 days [EPDS]"
 * code.coding[snomedCode2] = SCT#288535006 "Finding relating to laughing"
 * subject = Reference(Patient/ex-patient)
 * performer = Reference(Practitioner/ex-author)
