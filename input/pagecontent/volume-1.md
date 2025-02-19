@@ -17,7 +17,7 @@ Actors and transactions are used to achieve this use-case...
 
 <figure>
 {%include usecase1-processflow.svg%}
-<figcaption><strong>Figure X.X.X.X-X: Use Case 1 Process Flow</strong</figcaption>
+<figcaption><strong>Figure X.X.X.X-X: Use Case 1 Process Flow</strong></figcaption>
 </figure>
 <br clear="all">
 
@@ -93,7 +93,7 @@ For more details see the detailed [transaction description](domain-YY.html)
 Options that may be selected for each actor in this implementation guide, are listed in Table XX.2-1 below. Dependencies
 between options when applicable are specified in notes.
 
-<p id ="tXX.2-1" class="tableTitle"><strong>Table XX.2-1: Actor Options<strong></p>
+<p id ="tXX.2-1" class="tableTitle"><strong>Table XX.2-1: Actor Options</strong></p>
 
 | Actor   | Option Name |
 |---------|-------------|
@@ -371,6 +371,10 @@ are combined to address the use cases.
 
 Use cases are informative, not normative, and "SHALL" language is
 not allowed in use cases.
+
+<div>
+<img src="anImage.png" caption="Figure XX.4.1: Diagrammed in an image" width="70%" >
+</div>
 
 ### XX.4.1 Concepts
 
