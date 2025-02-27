@@ -33,6 +33,13 @@ Profile and the relevant transactions between them.
 </figure>
 <br clear="all">
 
+or for Content Profiles use this
+<figure>
+{%include docSharing.svg%}
+<figcaption><strong>Figure XX.1-2: ToDo Document Sharing Actor Diagram</strong></figcaption>
+</figure>
+<br clear="all">
+
 <p id ="tXX.1-1" class="tableTitle"><strong>Table XX.1-1: Profile Acronym Profile - Actors and Transactions</strong></p>
 
 | Actors  | Transactions  | Initiator or Responder | Optionality     | Reference                                  |
