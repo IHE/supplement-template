@@ -1,0 +1,8 @@
+@startuml
+hide footbox
+agent "Content\nCreator" as Creator
+agent "Content\nConsumer" as Consumer
+cloud "Share Content" as cloud
+Creator -> cloud : TODO
+cloud -> Consumer : TODO
+@enduml
