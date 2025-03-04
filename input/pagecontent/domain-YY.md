@@ -72,8 +72,12 @@ See [MHD Security Considerations](volume-1.html#security-considerations)
 
 ##### Client Audit
 
-''TODO: the specifics''
+When grouped with ATNA Secure Application or Secure Node the Actor shall be able to record... 
+
+''TODO: the specifics, leveraging BALP''
 
 ##### Server Audit
 
-''TODO: the specifics''
+When grouped with ATNA Secure Application or Secure Node the Actor shall be able to record... 
+
+''TODO: the specifics, leveraging BALP''
