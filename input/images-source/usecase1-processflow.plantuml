@@ -4,9 +4,9 @@ hide footbox
 participant "Client" as Client
 participant "Server" as Server
 activate "Client"
-"Client" -> "Server" : 1. Go Query [domain-YY]
+"Client" -> "Server" : 1. Go Query [[domain-YY.html Domain-YY]]
 activate "Server"
-"Server" --> "Client" : 2. Go Response [domain-YY]
+"Server" --> "Client" : 2. Go Response [[domain-YY.html Domain-YY]]
 deactivate "Client"
 deactivate "Server"
 @enduml

@@ -429,13 +429,24 @@ The roles at the top of the swimlane diagram should correspond to
 actor names, include the profile acronym:actor name if referencing an
 actor from a different profile.
 
-Modify the following "Swimlane Diagram".
+Modify the following "Swimlane Diagram". You can use plantuml or mermaid. see details on [using mermaid in the IG publisher](https://build.fhir.org/ig/FHIR/ig-guidance/diagrams-mermaid.html). Mermaid [user guide online](https://mermaid.js.org/intro/getting-started.html).  Plantuml seems more stable, and does support clickable links on artifacts. Goto [plantuml.com](http://plantuml.com) for an online tool to draft plantuml files.
 
-<figure>
-{%include usecase1-processflow.svg%}
-<figcaption><strong>Figure XX.4.2.2-1: Basic Process Flow in Profile Acronym Profile</strong></figcaption>
-</figure>
-<br clear="all">
+```mermaid
+sequenceDiagram
+    participant Client
+    participant Server
+    activate Client
+    activate Server
+    Client ->> Server: 1. Go Query Domain-YY
+    Server -->> Client: 2. Go Response Domain-YY
+    deactivate Server
+    deactivate Client
+    activate Client
+    Client ->> Client: process response
+    deactivate Client
+```
+
+**Figure XX.4.2.2-1: Basic Process Flow in Profile Acronym Profile**:
 
 If process flow "swimlane" diagrams require additional explanation
 to clarify conditional flows, or flow variations need to be described
