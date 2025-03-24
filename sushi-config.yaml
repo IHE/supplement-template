@@ -29,6 +29,11 @@ fhirVersion: 4.0.1
 jurisdiction: 'http://unstats.un.org/unsd/methods/m49/m49.htm#001'
 #copyright: IHE http://www.ihe.net/Governance/#Intellectual_Property
 copyrightYear: 2021+
+dependencies:
+  ihe.iti.balp:
+    id: iheitibasicaudit
+    uri: https://profiles.ihe.net/ITI/BALP/ImplementationGuide/ihe.iti.balp
+    version: 1.1.x
 
 
 parameters:  # see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters
