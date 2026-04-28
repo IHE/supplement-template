@@ -5,7 +5,7 @@
 
 <a name="actors-and-transactions"> </a>
 
-## 1:X.1 ToDo Actors, Transactions, and Content Modules
+## 1:XX.1 ToDo Actors, Transactions, and Content Modules
 
 * Actors
   * [Client](#client)
@@ -17,7 +17,7 @@ Actors and transactions are used to achieve this use-case...
 
 <figure>
 {%include usecase1-processflow.svg%}
-<figcaption><strong>Figure X.X.X.X-X: Use Case 1 Process Flow</strong></figcaption>
+<figcaption><strong>Figure 1:X.X.X.X-X: Use Case 1 Process Flow</strong></figcaption>
 </figure>
 <br clear="all">
 
@@ -29,18 +29,18 @@ Profile and the relevant transactions between them.
 
 <figure>
 {%include ActorsAndTransactions.svg%}
-<figcaption><strong>Figure XX.1-2: ToDo Actor Diagram</strong></figcaption>
+<figcaption><strong>Figure 1:XX.1-2: ToDo Actor Diagram</strong></figcaption>
 </figure>
 <br clear="all">
 
 or for Content Profiles use this
 <figure>
 {%include docSharing.svg%}
-<figcaption><strong>Figure XX.1-2: ToDo Document Sharing Actor Diagram</strong></figcaption>
+<figcaption><strong>Figure 1:XX.1-2: ToDo Document Sharing Actor Diagram</strong></figcaption>
 </figure>
 <br clear="all">
 
-<p id ="tXX.1-1" class="tableTitle"><strong>Table XX.1-1: Profile Acronym Profile - Actors and Transactions</strong></p>
+<p id ="tXX.1-1" class="tableTitle"><strong>Table 1:XX.1-1: Profile Acronym Profile - Actors and Transactions</strong></p>
 
 | Actors  | Transactions  | Initiator or Responder | Optionality     | Reference                                  |
 |---------|---------------|------------------------|-----------------|--------------------------------------------|
@@ -62,14 +62,14 @@ example: Note: Either Transaction Y3 or Transaction Y4 shall be
 implemented for Actor E.*
 
 Note 2: *For example, could specify that Transaction Y4 is required
-if Actor B supports XYZ Option, see Section XX.3.X.*
+if Actor B supports XYZ Option, see Section 1:XX.3.X.*
 
-### XX.1.1 Actors
+### 1:XX.1.1 Actors
 The actors in this profile are described in more detail in the sections below.
 
 <a name="client"> </a>
 
-#### XX.1.1.1 Client
+#### 1:XX.1.1.1 Client
 
 The Client queries for blah meeting certain criteria and may retrieve selected blah.
 
@@ -77,17 +77,17 @@ FHIR Capability Statement for [Client](CapabilityStatement-IHE.ToDo.client.html)
 
 <a name="server"> </a>
 
-#### XX.1.1.2 Server
+#### 1:XX.1.1.2 Server
 
 The Sever processes query request from the Client actor.
 
 FHIR Capability Statement for [Server](CapabilityStatement-IHE.ToDo.server.html)
 
-### XX.1.2 Transaction Descriptions
+### 1:XX.1.2 Transaction Descriptions
 
 The transactions in this profile are summarized in the sections below.
 
-#### XX.1.2.1 ToDo do transaction
+#### 1:XX.1.2.1 ToDo do transaction
 
 This transaction is used to **do things**
 
@@ -95,12 +95,12 @@ For more details see the detailed [transaction description](domain-YY.html)
 
 <a name="actor-options"> </a>
 
-## XX.2 ToDo Actor Options
+## 1:XX.2 ToDo Actor Options
 
-Options that may be selected for each actor in this implementation guide, are listed in Table XX.2-1 below. Dependencies
+Options that may be selected for each actor in this implementation guide, are listed in Table 1:XX.2-1 below. Dependencies
 between options when applicable are specified in notes.
 
-<p id ="tXX.2-1" class="tableTitle"><strong>Table XX.2-1: Actor Options</strong></p>
+<p id ="tXX.2-1" class="tableTitle"><strong>Table 1:XX.2-1: Actor Options</strong></p>
 
 | Actor   | Option Name |
 |---------|-------------|
@@ -108,13 +108,13 @@ between options when applicable are specified in notes.
 | Actor B | none |
 {: .grid}
 
-### XX.2.1 AB Option
+### 1:XX.2.1 AB Option
 
 **TODO: describe this option and the Volume 1 requirements for this option
 
 <a name="required-groupings"> </a>
 
-## XX.3 ToDo Required Actor Groupings
+## 1:XX.3 ToDo Required Actor Groupings
 
 *Describe any requirements for actors in this profile to be grouped
 with other actors.*
@@ -144,16 +144,16 @@ Section XX.5 describes some optional groupings that may be of interest
 for security considerations and Section XX.6 describes some optional
 groupings in other related profiles.
 
-Two alternatives for Table XX.3-1 are presented below.
+Two alternatives for Table 1:XX.3-1 are presented below.
 
-* If there are no required groupings for any actor in this profile,
+- If there are no required groupings for any actor in this profile,
     use alternative 1 as a template.
-* If an actor in this profile (with no option), has a required
+- If an actor in this profile (with no option), has a required
     grouping, use alternative 1.
-* If any required grouping is associated with an actor/option
+- If any required grouping is associated with an actor/option
     combination in this profile, use alternative 2.
 
-alternative 1 Table XX.3-1: Profile Name - Required Actor
+alternative 1 Table 1:XX.3-1: Profile Name - Required Actor
 Groupings
 
 All actors from this profile should be listed in Column 1, even if
@@ -183,7 +183,7 @@ the required grouping for security. Also see the ITI document titled
 <http://ihe.net/Technical_Frameworks/#IT> for a list of suggested IT and
 security groupings.
 
-<p id ="tXX.3-1" class="tableTitle"><strong>Table XX.3-1: Actor Groupings</strong></p>
+<p id ="tXX.3-1" class="tableTitle"><strong>Table 1:XX.3-1: Actor Groupings</strong></p>
 
 <table border="1" borderspacing="0" style='border: 1px solid black; border-collapse: collapse'>
 <thead>
@@ -290,25 +290,25 @@ other profiles/actors.*
 Note 2: *A note could also be used to explain why the grouping is
 required, if that is still not clear from the text above.*
 
-alternative 2 Table XX.3-1: this Profile Acronym Profile
+alternative 2 Table 1:XX.3-1: this Profile Acronym Profile
 
-* Required Actor Groupings
+- Required Actor Groupings
 
 All actors from this profile should be listed in Column 1. If no
 required grouping exists, "None" should be indicated in Column 3.
 
 Guidance on using the "Grouping Condition" column:
 
-* If an actor has no required grouping, Column 2 should contain "--".
+- If an actor has no required grouping, Column 2 should contain "--".
     See Actor A below.
-* If an actor has a required grouping that is not associated with a
+- If an actor has a required grouping that is not associated with a
     profile option (i.e., it has no condition), column 2 should contain
     "Required". See Actor B below.
-* Sometimes an option requires that an actor in this profile be
+- Sometimes an option requires that an actor in this profile be
     grouped with an actor in another profile. That condition is
     specified in Column 2. See Actor C below.
 
-<p id ="tXX.3-1" class="tableTitle"><strong>Table XX.3-1: Actor Groupings</strong></p>
+<p id ="tXX.3-1" class="tableTitle"><strong>Table 1:XX.3-1: Actor Groupings</strong></p>
 
 <table border="1" borderspacing="0" style='border: 1px solid black; border-collapse: collapse'>
 <tbody>
@@ -371,7 +371,7 @@ Guidance on using the "Grouping Condition" column:
 
 <a name="overview"> </a>
 
-## XX.4 ToDo Overview
+## 1:XX.4 ToDo Overview
 
 This section shows how the transactions/content modules of the profile
 are combined to address the use cases.
@@ -380,10 +380,10 @@ Use cases are informative, not normative, and "SHALL" language is
 not allowed in use cases.
 
 <div>
-<img src="anImage.png" caption="Figure XX.4.1: Diagrammed in an image" width="70%" >
+<img src="anImage.png" caption="Figure 1:XX.4.1: Diagrammed in an image" width="70%" >
 </div>
 
-### XX.4.1 Concepts
+### 1:XX.4.1 Concepts
 
 If needed, this section provides an overview of the concepts that
 provide necessary background for understanding the profile. If not
@@ -394,22 +394,22 @@ It may be useful in this section but is not necessary, to provide a
 short list of the use cases described below and explain why they are
 different.
 
-### XX.4.2 Use Cases
+### 1:XX.4.2 Use Cases
 
 #### XX.4.2.1 Use Case \#1: simple name
 
 One or two sentence simple description of this particular use
 case.
 
-Note that Section XX.4.2.1 repeats in its entirety for additional use
-cases (replicate as Section XX.4.2.2, XX.4.2.3, etc.).
+Note that Section 1:XX.4.2.1 repeats in its entirety for additional use
+cases (replicate as Section 1:XX.4.2.2, 1:XX.4.2.3, etc.).
 
-##### XX.4.2.1.1 simple name Use Case Description
+##### 1:XX.4.2.1.1 simple name Use Case Description
 
 Describe the key use cases addressed by the profile. Limit to a
 maximum of one page of text or consider an appendix.
 
-##### XX.4.2.1.2 simple name Process Flow
+##### 1:XX.4.2.1.2 simple name Process Flow
 
 Diagram and describe the process flow(s) covered by this profile in
 order to satisfy the use cases. Demonstrate how the profile transactions
@@ -446,7 +446,7 @@ sequenceDiagram
     deactivate Client
 ```
 
-**Figure XX.4.2.2-1: Basic Process Flow in Profile Acronym Profile**:
+**Figure 1:XX.4.2.2-1: Basic Process Flow in Profile Acronym Profile**:
 
 If process flow "swimlane" diagrams require additional explanation
 to clarify conditional flows, or flow variations need to be described
@@ -475,9 +475,9 @@ examples of potential next steps.
 
 <a name="security-considerations"> </a>
 
-## XX.5 ToDo Security Considerations
+## 1:XX.5 ToDo Security Considerations
 
-See ITI TF-2x: [Appendix Z.8 "Mobile Security Considerations"](https://profiles.ihe.net/ITI/TF/Volume2/ch-Z.html#z.8-mobile-security-considerations)
+See ITI TF-2: [Appendix Z.8 "Mobile Security Considerations"](https://profiles.ihe.net/ITI/TF/Volume2/ch-Z.html#z.8-mobile-security-considerations)
 
 The following is instructions to the editor and this text is not to be included in a publication.
 The material initially from [RFC 3552 "Security Considerations Guidelines" July 2003](https://tools.ietf.org/html/rfc3552).
@@ -505,9 +505,9 @@ IHE Document Content profiles can reference the security and privacy provided by
 
 Authors MUST describe:
 
-* which attacks have been considered and addressed in the specification
-* which attacks have been considered but not addressed in the specification
-* what could be done in system design, system deployment, or user training
+- which attacks have been considered and addressed in the specification
+- which attacks have been considered but not addressed in the specification
+- what could be done in system design, system deployment, or user training
 
    At least the following forms of attack MUST be considered:
    eavesdropping, replay, message insertion, deletion, modification, and
@@ -564,7 +564,7 @@ Where audit logging is specified, a StructureDefinition profile(s) should be inc
 
 <a name="other-grouping"> </a>
 
-## XX.6 ToDo Cross-Profile Considerations
+## 1:XX.6 ToDo Cross-Profile Considerations
 
 This section is informative, not normative. It is intended to put
 this profile in context with other profiles. Any required groupings
