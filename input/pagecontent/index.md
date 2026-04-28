@@ -14,7 +14,7 @@
 
 This guide is organized into the following sections:
 
-1. Volume 1:
+1. Volume 1: Profile Detail
    1. [Introduction](volume-1.html)
    1. [Actors, Transactions, and Content](volume-1.html#actors-and-transactions)
    1. [Actor Options](volume-1.html#actor-options)
@@ -31,15 +31,15 @@ This guide is organized into the following sections:
 4. Volume 4: National Extensions
    1. **TODO: point at the National Extensions if there are any**
 5. Other
-   1. [Test Plan](testplan.html)
    1. [Changes to Other IHE Specifications](other.html)
    1. [Download and Analysis](download.html)
+   1. [Test Plan](testplan.html)
 
 See also the [Table of Contents](toc.html) and the index of [Artifacts](artifacts.html) defined as part of this implementation guide.
 
 ### Conformance Expectations
 
-IHE uses the normative words: Shall, Should, and May according to [standards conventions](https://profiles.ihe.net/GeneralIntro/ch-E.html).
+IHE uses the normative words: "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" according to [standards conventions](https://profiles.ihe.net/GeneralIntro/ch-E.html).
 
 #### Must Support
 
